@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="footer__inner">
+      <div class="copyright">
+        <span>© {{ now.Year }} wilson e. husin</span>
+        <span>:: built with hugo <a href="https://github.com/panr/hugo-theme-terminal">terminal</a> theme</span>
+      </div>
+  </div>
+</footer>
+
+<script src="{{ "assets/main.js" | absURL }}"></script>
+<script src="{{ "assets/prism.js" | absURL }}"></script>
+
+{{ if $.Site.Params.showLanguageSelector }}
+  <script src="{{ "assets/languageSelector.js" | absURL }}"></script>
+{{ end }}
