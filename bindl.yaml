@@ -1,0 +1,22 @@
+platforms:
+  linux:
+    - amd64
+  darwin:
+    - arm64
+
+programs:
+  - name: hugo
+    version: "0.97.3"
+    provider: github
+    paths:
+      base: gohugoio/hugo
+      target: "{{ .Name }}_{{ .Version }}_{{ .OS }}-{{ .Arch }}.tar.gz"
+      checksums:
+        artifact: "{{ .Name }}_{{ .Version }}_checksums.txt"
+    overlay:
+      OS:
+        darwin: macOS
+        linux: Linux
+      Arch:
+        arm64: ARM64
+        amd64: 64bit

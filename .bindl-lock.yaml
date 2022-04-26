@@ -1,0 +1,22 @@
+programs:
+- checksums:
+    hugo_0.97.3_Linux-64bit.tar.gz:
+      archive: 3d3de272b895a95849ec5011a254da2e34148ed6f03bab24e3930c1f5ee52cdf
+      binary: 7d8ec46cab0858881676d2cceadd80480678c54b47a3006251d1e8bb7395ddfa
+    hugo_0.97.3_macOS-ARM64.tar.gz:
+      archive: 4f7b8f0e1f83f4e4de8715046ca0aefe43a3217048a96fafe64020c0cdc01b17
+      binary: 38a3a1f9d2612f4c498b73423721332afc7a696834a5204006ed236e1da40dd3
+  name: hugo
+  overlay:
+    Arch:
+      amd64: 64bit
+      arm64: ARM64
+    OS:
+      darwin: macOS
+      linux: Linux
+  paths:
+    base: https://github.com/gohugoio/hugo/releases/download/v{{ .Version }}/
+    checksums:
+      artifact: https://github.com/gohugoio/hugo/releases/download/v{{ .Version }}/{{ .Name }}_{{ .Version }}_checksums.txt
+    target: '{{ .Name }}_{{ .Version }}_{{ .OS }}-{{ .Arch }}.tar.gz'
+  version: 0.97.3
