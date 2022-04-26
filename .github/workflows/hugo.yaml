@@ -11,10 +11,12 @@ jobs:
   hugo:
     runs-on: ubuntu-latest
     steps:
-    - uses: bindl-dev/bindl@main
-
     - uses: actions/checkout@v2
 
+    - uses: bindl-dev/bindl@main
+      with:
+        install-dir: bin
+    
     - name: Generate HTML 
       run: make hugo
 
@@ -25,9 +27,11 @@ jobs:
   bindl:
     runs-on: ubuntu-latest
     steps:
-    - uses: bindl-dev/bindl@main
-
     - uses: actions/checkout@v2
+
+    - uses: bindl-dev/bindl@main
+      with:
+        install-dir: bin
 
     - run: bindl sync
 
