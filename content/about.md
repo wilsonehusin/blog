@@ -4,7 +4,7 @@ title: wilson e. husin
 
 Software engineer with a health obsession for cooking.    
 Living in San Francisco Bay Area.    
-Says "I really want 🌮 **tacos** 🌮 right now" too often.
+Often heard saying "I really want 🌮 **tacos** 🌮 right now".
 
 Suggested nerd-snipe topics: software performance, human factors, or ramen broth.
 
@@ -25,4 +25,4 @@ Come say hi! (or [hire me](/hire-me))
 
 ### miscellaneous
 
-[`resume`](/Wilson_Husin_Resume.pdf)
+[`resume (pdf)`](/Wilson_Husin_Resume.pdf)
