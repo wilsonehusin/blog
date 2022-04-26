@@ -6,7 +6,37 @@
     <description>Recent content in Monthlies on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/monthly/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/monthly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>april 2022</title>
+      <link>/monthly/202204/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/monthly/202204/</guid>
+      <description>food We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get a beautiful bowl of Tsukemen from Tsujita. Absolutely lovely.
+I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is Halal Guys chicken platter. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.</description>
+      <content>&lt;h1 id=&#34;food&#34;&gt;food&lt;/h1&gt;
+&lt;p&gt;We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get &lt;a href=&#34;/pictures/202204050000&#34;&gt;a beautiful bowl of Tsukemen from Tsujita&lt;/a&gt;. Absolutely lovely.&lt;/p&gt;
+&lt;p&gt;I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is &lt;a href=&#34;/pictures/202204210000&#34;&gt;Halal Guys chicken platter&lt;/a&gt;. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.&lt;/p&gt;
+&lt;h1 id=&#34;bindl-its-public&#34;&gt;bindl: it&amp;rsquo;s public!&lt;/h1&gt;
+&lt;p&gt;After writing out last month&amp;rsquo;s update, I practically worked on Bindl most of the time I was on my computer. The project is finally public on &lt;a href=&#34;https://bindl.dev&#34;&gt;bindl.dev&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since then, I have started a few other projects which uses Bindl as a dependency manager. The exercise of using-your-own tools led me to building &lt;a href=&#34;https://github.com/bindl-dev/bindl/blob/main/action.yaml&#34;&gt;Bindl Action&lt;/a&gt; and a &lt;a href=&#34;https://github.com/bindl-dev/bindl/blob/main/bootstrap.sh&#34;&gt;bootstrap script&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Still far from perfect, and certainly lots of improvements to be made. I have reached out to several people over personal message to tell them about it, but I don&amp;rsquo;t think it has rang much excitement. At least I know this is already making one person happy in this world: me. If you&amp;rsquo;d like to increase that number, I would love for you to be my guest and let me know what you think!&lt;/p&gt;
+&lt;h1 id=&#34;gomodurl&#34;&gt;gomodurl&lt;/h1&gt;
+&lt;p&gt;In some of my Go projects, I used a custom module import URL (e.g. &lt;code&gt;go.husin.dev/differ&lt;/code&gt; and &lt;code&gt;go.xargs.dev/archy&lt;/code&gt;). The hosting management for those URLs had moved twice: hacky Jekyll redirects on GitHub Pages and a deployed &lt;a href=&#34;https://github.com/GoogleCloudPlatform/govanityurls&#34;&gt;GoogleCloudPlatform/govanityurls&lt;/a&gt; instance on &lt;a href=&#34;https://fly.io&#34;&gt;Fly&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the most part, it has been nearly zero maintenance, except that every new project / redirect rule, I would have to redeploy. Sure, it wasn&amp;rsquo;t much of hassle with automation from GitHub Actions, but it&amp;rsquo;s still another thing to worry about.&lt;/p&gt;
+&lt;p&gt;Well, how hard would it be to write it myself that it auto-discovers new repositories?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wilsonehusin/gomodurl&#34;&gt;It turned out to be a quite fun day hack and it&amp;rsquo;s live now&lt;/a&gt;. This project replaced &amp;ldquo;commit every new repository&amp;rdquo; activity with &amp;ldquo;polling GitHub every hour&amp;rdquo;. You too can use vanity URLs with minimal configurations now!&lt;/p&gt;
+&lt;h1 id=&#34;thoughtful-online-presence&#34;&gt;thoughtful online presence&lt;/h1&gt;
+&lt;p&gt;For the last few &lt;del&gt;months&lt;/del&gt; years, I have been on and off blogging while also moving from different tools and engines. I also started accumulating a list of domains for &amp;ldquo;projects&amp;rdquo; which only half of them ever made itself out.&lt;/p&gt;
+&lt;p&gt;With Twitter&amp;rsquo;s recent acquisition event as a forcing function, I have finally decided to consolidate everything to one site: the one you are looking at now. I believe I have also made all previous domains redirect to &lt;code&gt;husin.dev&lt;/code&gt;, so let me know if you find one that is still lost.&lt;/p&gt;
+&lt;p&gt;I have deactivated my Facebook and Instagram accounts a while back. While I&amp;rsquo;m likely going to keep my Twitter account &amp;ldquo;clickable&amp;rdquo;, I foresee myself losing interest in the near future as the people I care to read on Twitter are leaving the platform.&lt;/p&gt;
+&lt;p&gt;And so everything goes down to this site. I&amp;rsquo;m looking forward to posting more stories in pictures and words here.&lt;/p&gt;
+&lt;p&gt;I do not aim to write reference-quality content like &lt;a href=&#34;https://danluu.com&#34;&gt;Dan Luu&lt;/a&gt;, &lt;a href=&#34;https://jvns.ca&#34;&gt;Julia Evans&lt;/a&gt;, or &lt;a href=&#34;https://apenwarr.ca&#34;&gt;Avery Pennarun&lt;/a&gt; (all of which I am a fan of). Not saying never, just that it&amp;rsquo;s out of scope to put the goal on &amp;ldquo;writing something useful&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;For now, I aim to &amp;ldquo;write more mundane things&amp;rdquo; — something I wish my friends would also do, as I would love to read their words and have a reason to break the cycle of silence with talking about their new coffee brewing routine or maybe even laundry detergent. Let me know if you&amp;rsquo;d like to join me!&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>march 2022</title>
       <link>/monthly/202203/</link>

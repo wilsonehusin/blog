@@ -6,7 +6,57 @@
     <description>Recent content in Tags on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bindl</title>
+      <link>/tags/bindl/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bindl/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>/tags/blogging/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogging/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>gomodurl</title>
+      <link>/tags/gomodurl/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gomodurl/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>los-angeles</title>
+      <link>/tags/los-angeles/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/los-angeles/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>monthly</title>
+      <link>/tags/monthly/</link>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/monthly/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>coffee</title>
       <link>/tags/coffee/</link>
@@ -28,21 +78,41 @@
     </item>
     
     <item>
-      <title>bindl</title>
-      <link>/tags/bindl/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      <title>cooking</title>
+      <link>/tags/cooking/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bindl/</guid>
+      <guid>/tags/cooking/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
-      <title>monthly</title>
-      <link>/tags/monthly/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      <title>food</title>
+      <link>/tags/food/</link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/monthly/</guid>
+      <guid>/tags/food/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>culture</title>
+      <link>/tags/culture/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/culture/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>in-the-wild</title>
+      <link>/tags/in-the-wild/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/in-the-wild/</guid>
       <description></description>
       <content></content>
     </item>
