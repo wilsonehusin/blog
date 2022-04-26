@@ -1,0 +1,36 @@
+name: Hugo
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: bindl-dev/bindl@main
+
+    - uses: actions/checkout@v2
+
+    - name: Generate HTML 
+      run: make hugo
+
+    - uses: chainguard-dev/actions/nodiff@main
+      with:
+        fixup-command: "make hugo" 
+
+  bindl:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: bindl-dev/bindl@main
+
+    - uses: actions/checkout@v2
+
+    - run: bindl sync
+
+    - uses: chainguard-dev/actions/nodiff@main
+      with:
+        fixup-command: "bindl sync"
