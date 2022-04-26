@@ -3,9 +3,9 @@ bin/*
 !bin/.keep
 
 # Generated files by hugo
-/public/
+# /public/
+# /assets/jsconfig.json
 /resources/_gen/
-/assets/jsconfig.json
 hugo_stats.json
 
 # Executable may be added to repository

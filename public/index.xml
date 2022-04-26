@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wilson&#39;s Journal</title>
+    <link>/</link>
+    <description>Recent content on Wilson&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kyōto-style cold drip coffee</title>
+      <link>/pictures/202204250000/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/pictures/202204250000/</guid>
+      <description>I am somehow in possession of these thin, but otherwise okay plastic bowls. Quite plenty of them.
+Instead of being wasteful and throwing them out after single-use, I decided to have fun and play some arts and crafts with it. Not too shabby, I think. Likely I will add paper filter on top of the coffee bed for better water distribution next time.
+30 grams coffee with 300 grams ice (1:10 ratio) over 10+ hours.</description>
+      <content>&lt;p&gt;I am somehow in possession of these thin, but otherwise okay plastic bowls.
+Quite plenty of them.&lt;/p&gt;
+&lt;p&gt;Instead of being wasteful and throwing them out after single-use, I decided to have fun and play some arts and crafts with it.
+Not too shabby, I think.
+Likely I will add paper filter on top of the coffee bed for better water distribution next time.&lt;/p&gt;
+&lt;p&gt;30 grams coffee with 300 grams ice (1:10 ratio) over 10+ hours.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/kyoto-drip/bottom-bowl.webp&#34; alt=&#34;Bottom view of plastic bowl with holes&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/kyoto-drip/assembled.webp&#34; alt=&#34;Assembled stack of kyoto-style cold drip coffee using Hario V60 brewer&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>now</title>
+      <link>/now/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/now/</guid>
+      <description> still on leave from day job looking for more of delicious meal-prepping ideas cleaning up personal domains and deployments, created these along the way:  bindl/spartan for HTTP 3xx redirect rules gomodurl for vanity domain in go module imports (e.g. go.husin.dev/gomodurl)   started doing v3 routes (and bouldering more than once a week)  </description>
+      <content>&lt;ul&gt;
+&lt;li&gt;still on leave from day job&lt;/li&gt;
+&lt;li&gt;looking for more of delicious meal-prepping ideas&lt;/li&gt;
+&lt;li&gt;cleaning up personal domains and deployments, created these along the way:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bindl-dev/spartan&#34;&gt;&lt;code&gt;bindl/spartan&lt;/code&gt;&lt;/a&gt; for &lt;code&gt;HTTP 3xx&lt;/code&gt; redirect rules&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wilsonehusin/gomodurl&#34;&gt;&lt;code&gt;gomodurl&lt;/code&gt;&lt;/a&gt; for vanity domain in go module imports (e.g. &lt;a href=&#34;https://go.husin.dev/gomodurl&#34;&gt;&lt;code&gt;go.husin.dev/gomodurl&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;started doing v3 routes (and bouldering more than once a week)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>tandem bike and team slack</title>
+      <link>/words/202204080000/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/words/202204080000/</guid>
+      <description>I had this conversation today, which I think is worth sharing more broadly.
+For context, throughout my time at Pivotal / VMware, there is a concept called “flex time” where you are left to your own judgement on what to use 1 hour out of your 8 work hours to make yourself a better engineer (or coworker, or team player). It’s flex because it is (in my experience) truly flex — sometimes the best thing to do with that hour is to cook dinner, read a book, or build a prototype of an idea you have which hasn’t been prioritized by the team.</description>
+      <content>&lt;p&gt;I had this conversation today, which I think is worth sharing more broadly.&lt;/p&gt;
+&lt;p&gt;For context, throughout my time at Pivotal / VMware, there is a concept called “flex time” where you are left to your own judgement on what to use 1 hour out of your 8 work hours to make yourself a better engineer (or coworker, or team player). It’s &lt;em&gt;flex&lt;/em&gt; because it is (in my experience) truly flex — sometimes the best thing to do with that hour is to cook dinner, read a book, or build a prototype of an idea you have which hasn’t been prioritized by the team.&lt;/p&gt;
+&lt;p&gt;Anyhow, I am glad that my managers have been checking in from time to time, “have you been sacrificing your flex time?” which is treated as a high priority team health check.&lt;/p&gt;
+&lt;p&gt;And today it clicked to me: &lt;strong&gt;running teams are like riding tandem bikes&lt;/strong&gt; — bicycle continues to move, but it’s hard to tell who is putting extra hours until it’s too late. Asking these questions is a mechanism to check if anyone isn’t clocking off on time.&lt;/p&gt;
+&lt;p&gt;So here’s a reminder to build slack and capacity for your team resilience, and cultivate a safe environment for your team to speak up when there is too much to do.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>a tale of protocol of minimizing cost</title>
+      <link>/words/202204050000/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/words/202204050000/</guid>
+      <description>I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)
+ Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”
+Microsoft would want you to elaborate cryptographic scheme for Alice and Bob to communicate secretly.
+However, Google would want you to start with: “Alice should tell Bob to call them, and provide backup plan if Bob has trouble doing so.</description>
+      <content>&lt;p&gt;I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”&lt;/p&gt;
+&lt;p&gt;Microsoft would want you to elaborate cryptographic scheme for Alice and Bob to communicate secretly.&lt;/p&gt;
+&lt;p&gt;However, Google would want you to start with: “Alice should tell Bob to call them, and provide backup plan if Bob has trouble doing so.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Every now and then, I think about this and how my impression of the author’s tone is more about showing the culture at the two companies instead of a puzzle worth solving in an interview.&lt;/p&gt;
+&lt;p&gt;Today, something else clicked in my head: the supposedly Google-way of doing it somewhat resembles how content delivery network (CDN) works — make a request with &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag&#34;&gt;&lt;code&gt;ETag&lt;/code&gt;&lt;/a&gt; attached (using &lt;code&gt;If-None-Match&lt;/code&gt; header) and server will respond with &lt;code&gt;HTTP 304&lt;/code&gt; (i.e. “you are up to date!”) or content with new &lt;code&gt;ETag&lt;/code&gt; will be served in the reply. This allows the potential to save up transfer cost of files from server.&lt;/p&gt;
+&lt;p&gt;This is partially relevant to human interactions too. &lt;a href=&#34;https://nohello.net&#34;&gt;No hello&lt;/a&gt; is often favored to reduce the expensive communication overhead.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>march 2022</title>
+      <link>/monthly/202203/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/monthly/202203/</guid>
+      <description>making ragù and pasta I made a lot of pasta this month. For the most part, I’m giving credit to Kenji’s video on Ragù Bolognese which led me to make it for the first time early March. It was a lot of effort cutting and prepping the ingredients, but most of the cooking was just in the background simmering. I also froze them using ice cube trays and just pop several to cook them during weekdays, tasty in 10 minutes!</description>
+      <content>&lt;h1 id=&#34;making-ragù-and-pasta&#34;&gt;making ragù and pasta&lt;/h1&gt;
+&lt;p&gt;I made a lot of pasta this month. For the most part, I’m giving credit to &lt;a href=&#34;https://youtu.be/cvROmO5ODnQ&#34;&gt;Kenji’s video on Ragù Bolognese&lt;/a&gt; which led me to make it for the first time early March. It was a lot of effort cutting and prepping the ingredients, but most of the cooking was just in the background simmering. I also &lt;a href=&#34;https://youtu.be/V5WR-K0zJYs&#34;&gt;froze them using ice cube trays&lt;/a&gt; and just pop several to cook them during weekdays, tasty in 10 minutes!&lt;/p&gt;
+&lt;h1 id=&#34;poking-coffee-clumps&#34;&gt;poking coffee clumps&lt;/h1&gt;
+&lt;p&gt;I have been making espresso for a while now. At the pursuit of flavor, espresso making involves a lot of preparation for the coffee grounds before pressurized water go through. Conveniently, &lt;a href=&#34;https://youtu.be/xb3IxAr4RCo&#34;&gt;James Hoffmann made a video on this topic recently&lt;/a&gt;, which to my surprise is quite close to what I do every day. &lt;a href=&#34;https://www.reddit.com/r/espresso/comments/tekmjb/i_love_my_daily_routine_but_do_you_ever_pause_for/&#34;&gt;Modern espresso is strange&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/monthly/202203/wdt.webp&#34; alt=&#34;Weiss Distribution Technique (WDT) tool, where the idea is to use acupuncture needles to break up clumps in espresso puck preparation.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Anyhow, this is a &lt;a href=&#34;https://www.etsy.com/listing/1185798417/business-card-9-prong-wdt-assembly&#34;&gt;distribution tool I found on Etsy&lt;/a&gt;. The whole point (hah) is to break up coffee ground clumps into smooth powder such that water can flow evenly through the puck. The concept isn’t new per se — people have been making these tools with 3D printer for a while. But &lt;a href=&#34;https://www.reddit.com/r/espresso/comments/oo3o1n/3d_printed_wdt_tool_now_upgraded_improved_and/&#34;&gt;most of them have a conic-shape&lt;/a&gt;, which increases the cost of shipping, ultimately putting the prices around $20-$30. This new design was created with eliminating that cost in mind, such that it can be shipped in an envelope. Brilliant idea.&lt;/p&gt;
+&lt;h1 id=&#34;please-stand-clear-of-the-doors&#34;&gt;please stand clear of the doors&lt;/h1&gt;
+&lt;p&gt;Have you ever seen a picture of a city where you live in and thought, “wow, this looks like a dream, I want to be there”? I’m lucky to experience that a lot, thanks to &lt;a href=&#34;https://twitter.com/isthelaststop/status/1508691157970157573&#34;&gt;Vallery Lancey&lt;/a&gt;. She takes beautiful pictures of San Francisco, &lt;a href=&#34;https://twitter.com/isthelaststop/status/1508012887473762305&#34;&gt;often through transit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;BART is my first choice of travel strategy to San Francisco and East Bay. Sometimes Muni buses in San Francisco, if not walking all the way (despite the hills, San Francisco is quite convenient to walk everywhere). That said, I took the first ride of &lt;a href=&#34;https://www.sfmta.com/getting-around/muni/muni-metro-light-rail&#34;&gt;Muni Metro Light Rail (LRV)&lt;/a&gt; in March — they are very pleasant! The last time I rode something similar was the &lt;a href=&#34;https://kcstreetcar.org/&#34;&gt;Kansas City Streetcar&lt;/a&gt;. I’m lucky that some evenings, I would see pictures from Vallery and I can just go experience it.&lt;/p&gt;
+&lt;h1 id=&#34;little-luca-beeg-beeg-luca&#34;&gt;little luca? BEEG BEEG LUCA!&lt;/h1&gt;
+&lt;p&gt;There is a nearby sandwich shop called &lt;a href=&#34;https://www.yelp.com/biz/little-lucca-specialty-sandwich-shop-south-san-francisco&#34;&gt;Little Luca&lt;/a&gt; which often has a long line whenever I pass by. Recently I went to get one and try it out for myself. I got a tri-tip special sandwich on dutch crunch bread. They taste great and honestly even better the next day as the sauce makes its way through the bread and the bread gets reheated in air fryer / convection oven. I don’t know who this little guy is, but sure seems like they have big mouth and belly.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/monthly/202203/little-luca-side-view.webp&#34; alt=&#34;Side view of tri-tip special sandwich from Little Luca.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/monthly/202203/little-luca-cross-section.webp&#34; alt=&#34;Cross-section of tri-tip special sandwich from Little Luca.&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;bindl&#34;&gt;bindl&lt;/h1&gt;
+&lt;p&gt;I have been working on a project to manage binaries for a few weeks now. There are still some work to be done before it’s published publicly, but I think &lt;a href=&#34;https://youtu.be/1SrqtGOxXgk&#34;&gt;this 3 minute video&lt;/a&gt; gives a reasonable idea of what this product experience can / should be. Some updates have been made since then, though the significant part is I would like to share the maintenance post-launch with a community. I thought I’m “a few days away to launching” but I guess time is very elastic when your day isn’t on a 9-5 schedule. Hopefully soon!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>metaprogramming json to ruby</title>
+      <link>/words/202112070000/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/words/202112070000/</guid>
+      <description>I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with Bored API.
+I had learned about Bored API recently from a talk by Justin Searls. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.
+❯ curl -sSL https://boredapi.com/api/activity?type=busywork | jq {  &amp;#34;activity&amp;#34;: &amp;#34;Draft your living will&amp;#34;,  &amp;#34;type&amp;#34;: &amp;#34;busywork&amp;#34;,  &amp;#34;participants&amp;#34;: 1,  &amp;#34;price&amp;#34;: 0,  &amp;#34;link&amp;#34;: &amp;#34;https://www.</description>
+      <content>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;❯ curl -sSL https://boredapi.com/api/activity?type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;busywork | jq
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;activity&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Draft your living will&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;busywork&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;participants&amp;#34;&lt;/span&gt;: 1,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;price&amp;#34;&lt;/span&gt;: 0,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;link&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.investopedia.com/terms/l/livingwill.asp&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;key&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2360432&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;accessibility&amp;#34;&lt;/span&gt;: 0.5
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;the-ruby-parts&#34;&gt;The Ruby parts&lt;/h1&gt;
+&lt;p&gt;Let&amp;rsquo;s try making a Ruby client for Bored API! Something simple that would let us do:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Activity&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(response)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;type &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; &amp;#34;busywork&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;naive&#34;&gt;Naive&lt;/h2&gt;
+&lt;p&gt;Given a JSON string to process, a boring (&lt;em&gt;ha ha&lt;/em&gt;) approach can look something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;json&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Activity&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;attr_reader&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:activity&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;:type&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;:participants&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;:price&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;:link&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;:key&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;:accessibility&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# @param raw_string [String] JSON string returned by Bored API&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;initialize&lt;/span&gt;(raw_string)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    response_data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;JSON&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parse raw_string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @activity &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;activity&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @participants &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;participants&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @price &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;price&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @link &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;link&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @key &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;key&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    @accessibility &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;accessibility&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# Quack&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    activity
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now with a valid input, we can expect the following to work:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;Activity&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(response)&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;name &lt;span style=&#34;color:#75715e&#34;&gt;# =&amp;gt; &amp;#34;Draft your living will!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Alright, that worked. &lt;code&gt;attr_reader&lt;/code&gt; saved us from writing multiple method definitions for the properties. However, we are currently front-loading the data parsing, which we can optimize with memoization tricks.&lt;/p&gt;
+&lt;h2 id=&#34;lazy-evaluation&#34;&gt;Lazy evaluation&lt;/h2&gt;
+&lt;p&gt;One trick that we will do here is to store the &lt;code&gt;raw_string&lt;/code&gt; value and parse only when needed.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;initialize&lt;/span&gt;(raw_string)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  @raw_string &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; raw_string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;response_data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  @response_data &lt;span style=&#34;color:#f92672&#34;&gt;||=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;JSON&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;parse @raw_string
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Although that means we can&amp;rsquo;t use &lt;code&gt;attr_reader&lt;/code&gt; anymore. To maintain functionality, we need to add something like the following to &lt;em&gt;every property&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;participants&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  @participants &lt;span style=&#34;color:#f92672&#34;&gt;||=&lt;/span&gt; response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;participants&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now that class doesn&amp;rsquo;t look so elegant anymore, does it? More than half of the methods defined in the class look like copy-pasted template.&lt;/p&gt;
+&lt;h2 id=&#34;misusing-method_missing&#34;&gt;(Mis)using &lt;code&gt;method_missing&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;If you, like me, have a fond memory of the talk &lt;a href=&#34;https://www.destroyallsoftware.com/talks/wat&#34;&gt;Wat by Gary Bernhardt&lt;/a&gt;, you might remember that Ruby has a method &lt;code&gt;method_missing&lt;/code&gt; in &lt;code&gt;BasicObject&lt;/code&gt; (&lt;a href=&#34;https://ruby-doc.org/core-3.0.2/BasicObject.html#method-i-method_missing&#34;&gt;doc&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;So, instead of writing &lt;code&gt;def participants&lt;/code&gt; like above, we can write one method to cover all the properties of an &lt;code&gt;Activity&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;PROPERTIES&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;activity type participants price link key accessibility&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;method_missing&lt;/span&gt;(method_name, &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;args, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;block)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;super&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;unless&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;PROPERTIES&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;include? method_name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;method_name&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;to_s&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;more-memoization-with-class_eval&#34;&gt;More memoization with &lt;code&gt;class_eval&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Some might say that they dislike &lt;code&gt;method_missing&lt;/code&gt; and would rather use &lt;code&gt;class_eval&lt;/code&gt; (&lt;a href=&#34;https://ruby-doc.org/core-3.0.2/Module.html#method-i-class_eval&#34;&gt;doc&lt;/a&gt;) like &lt;a href=&#34;https://github.com/lostisland/faraday/blob/65b8d3904f3a62e19444c9f4b7ef5b3ffe7e3e6d/lib/faraday/connection.rb#L197-L206&#34;&gt;how Faraday gem does it&lt;/a&gt;. This approach would also allow us to bring back memoization per property, instead of accessing the &lt;code&gt;Hash&lt;/code&gt; object on every method call.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;PROPERTIES&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;activity type participants price link key accessibility&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;PROPERTIES&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;each &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;prop&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  class_eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;-RUBY, __FILE__, __LINE__ + 1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;#{prop}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#{prop} ||= response_data[&amp;#34;#{prop}&amp;#34;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;RUBY&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;following-convention-with-define_method&#34;&gt;Following convention with &lt;code&gt;define_method&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;We have reached a point where we stray further from truth, where arguably, this is an over-complication of &lt;code&gt;attr_reader&lt;/code&gt;. What if we could make something like &lt;code&gt;attr_reader&lt;/code&gt;? Let me introduce you to &lt;code&gt;define_method&lt;/code&gt; (&lt;a href=&#34;https://ruby-doc.org/core-3.0.2/Module.html#method-i-define_method&#34;&gt;doc&lt;/a&gt;).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;module&lt;/span&gt; Bored
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prop_reader&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;props)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    props&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;each &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;prop&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      define_method prop &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;p&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        response_data&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;p&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;to_s&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Activity&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    prop_reader &lt;span style=&#34;color:#e6db74&#34;&gt;:activity&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:type&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:participants&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:price&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:link&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:key&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;:accessibility&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;Thanks for reading this silly thought experiment! I had lots of fun writing it.&lt;/p&gt;
+&lt;p&gt;In a less silly fashion, I once wrote about &lt;a href=&#34;https://gist.github.com/wilsonehusin/dee7cf99ad6f1d94369dc6f31268a600&#34;&gt;getting familiar with Ruby syntax&lt;/a&gt; and &lt;a href=&#34;https://gist.github.com/wilsonehusin/cbcf6d98207c596837351f4dd87e539a&#34;&gt;building duck-typed objects in Ruby&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you have thoughts, &lt;a href=&#34;/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>hire me</title>
+      <link>/hire-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/hire-me/</guid>
+      <description>The existence of this page does not imply my availability — I leave this page up as a constant exercise to describe myself over time. Please reach out if you&amp;rsquo;re interested!
+hello 👋🏼 I&amp;rsquo;m a software engineer primarily working on cloud applications and infrastructure. I have experiences in refactoring Ruby projects for performance and building test infrastructure for Kubernetes products. Specifically, I am interested in the human component of our computer system.</description>
+      <content>&lt;p&gt;&lt;em&gt;The existence of this page does not imply my availability — I leave this page up as a constant exercise to describe myself over time. Please reach out if you&amp;rsquo;re interested!&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;hello-&#34;&gt;hello 👋🏼&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m a software engineer primarily working on cloud applications and infrastructure. I have experiences in refactoring Ruby projects for performance and building test infrastructure for Kubernetes products. Specifically, I am interested in the human component of our computer system.&lt;/p&gt;
+&lt;p&gt;I would like to work with empathetic people who value sustainability (and therefore slack) of an organization. In a world obsessed with uptime, our industry often forgets to leave breathing room for humans to breathe.&lt;/p&gt;
+&lt;p&gt;A good friend and former colleague once said that I am a closeted Product Manager, but I personally like to think that I&amp;rsquo;m more of a T-shaped engineer — I have decent idea of how things work across the stack, while my extensive expertise is on building and operating systems.&lt;/p&gt;
+&lt;h2 id=&#34;working-with-me&#34;&gt;working with me&lt;/h2&gt;
+&lt;p&gt;My activity in the recent years has been around open-source product and community. As such, I find asynchronous communication by default to be preferable. Not only it removes the &amp;ldquo;meetings which could have been emails&amp;rdquo;, but also encourages more thoughtful writing and reading.&lt;/p&gt;
+&lt;p&gt;Having that said, I&amp;rsquo;m a proponent of paired programming. Pairing taught me to be more articulate in my ideas and more receptive of criticisms. &lt;a href=&#34;https://youtu.be/VzWLGMtXflg&#34;&gt;Sandi Metz said that our industry is insufficiently persuasive&lt;/a&gt;, and pairing is a wonderful way to nurture those skills in an organization, IMHO. Not to say that we should pair program all the time, but there is value in doing it and &lt;strong&gt;making it acceptable to be done effectively in your organization&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;lets-talk-ruby&#34;&gt;let&amp;rsquo;s talk ruby&lt;/h2&gt;
+&lt;p&gt;I have hosted several sessions on Ruby at workplace, particularly for ramping up engineers with no Ruby experience to an established Ruby project. I led design, implementation, and eventually roll out of Ruby performance initiatives which sped up code execution by 60%. &lt;a href=&#34;/words/202112070000&#34;&gt;I like to have fun when I write Ruby&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;ship-the-containers&#34;&gt;ship the containers&lt;/h2&gt;
+&lt;p&gt;In open-source, I contributed to Kubernetes to &lt;a href=&#34;https://github.com/kubernetes/kubernetes/pull/99178&#34;&gt;migrate the last container image to Distroless&lt;/a&gt;, removing false positive CVE signals from image scanners. I also worked on &lt;a href=&#34;https://github.com/kubernetes/sig-release/search?q=wilsonehusin&#34;&gt;Kubernetes release team in several release cycles&lt;/a&gt; to compile release notes and tooling around it.&lt;/p&gt;
+&lt;h2 id=&#34;version-control-everything&#34;&gt;version-control everything&lt;/h2&gt;
+&lt;p&gt;My personal development setup is on NixOS and only for the reason that machine setup can be version-controlled. I&amp;rsquo;m glad to maintain a consistent experience across several machines with ease. I also do my best to create GitOps workflow for my projects, that deploys run on Continuous Integration (CI) server instead of my computer, because I want to leave breadcrumbs for future self.&lt;/p&gt;
+&lt;p&gt;This experience led me to built several tools with similar philosophy. Some of them are public (&lt;a href=&#34;/#projects&#34;&gt;on front page of this site&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;For the record, I would love to have a job interview where I would bring a project and talk about it as an assessment of my literacy and cooperativeness.&lt;/p&gt;
+&lt;h2 id=&#34;have-some-fun&#34;&gt;have some fun&lt;/h2&gt;
+&lt;p&gt;I like to think of software development like cooking, &lt;a href=&#34;https://www.robinsloan.com/notes/home-cooked-app/&#34;&gt;inspired by this blog by Robin Sloan&lt;/a&gt;. I happen to be quite good that someone pays me to do it, but I also like to do it for myself. &lt;a href=&#34;https://github.com/xargs-dev/archy/&#34;&gt;I build silly things&lt;/a&gt; as an equivalent of &amp;ldquo;making cookies for the house today&amp;rdquo; — because it&amp;rsquo;s fun!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>wilson e. husin</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Software engineer with a health obsession for cooking. Living in San Francisco Bay Area. Says &amp;ldquo;I really want 🌮 tacos 🌮 right now&amp;rdquo; too often.
+Suggested nerd-snipe topics: software performance, human factors, or ramen broth.
+Come say hi! (or hire me)
+projects bindl gomodurl noms
+contact / social email github linkedin twitter
+miscellaneous resume</description>
+      <content>&lt;p&gt;Software engineer with a health obsession for cooking. &lt;br&gt;
+Living in San Francisco Bay Area. &lt;br&gt;
+Says &amp;ldquo;I really want 🌮 &lt;strong&gt;tacos&lt;/strong&gt; 🌮 right now&amp;rdquo; too often.&lt;/p&gt;
+&lt;p&gt;Suggested nerd-snipe topics: software performance, human factors, or ramen broth.&lt;/p&gt;
+&lt;p&gt;Come say hi! (or &lt;a href=&#34;/hire-me&#34;&gt;hire me&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;projects&#34;&gt;projects&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://bindl.dev&#34;&gt;&lt;code&gt;bindl&lt;/code&gt;&lt;/a&gt;
+&lt;a href=&#34;https://go.husin.dev/gomodurl&#34;&gt;&lt;code&gt;gomodurl&lt;/code&gt;&lt;/a&gt;
+&lt;a href=&#34;https://noms.pages.dev&#34;&gt;&lt;code&gt;noms&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;contact--social&#34;&gt;contact / social&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:wilson@husin.dev&#34;&gt;&lt;code&gt;email&lt;/code&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/wilsonehusin&#34;&gt;&lt;code&gt;github&lt;/code&gt;&lt;/a&gt;
+&lt;a href=&#34;https://linkedin.con/in/wilsonehusin&#34;&gt;&lt;code&gt;linkedin&lt;/code&gt;&lt;/a&gt;
+&lt;a href=&#34;https://twitter.com/wilsonehusin&#34;&gt;&lt;code&gt;twitter&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;miscellaneous&#34;&gt;miscellaneous&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;/Wilson_Husin_Resume.pdf&#34;&gt;&lt;code&gt;resume&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

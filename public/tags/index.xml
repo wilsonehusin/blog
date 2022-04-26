@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Wilson&#39;s Journal</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Wilson&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coffee</title>
+      <link>/tags/coffee/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/coffee/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>reuse</title>
+      <link>/tags/reuse/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reuse/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>bindl</title>
+      <link>/tags/bindl/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bindl/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>monthly</title>
+      <link>/tags/monthly/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/monthly/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>ragu</title>
+      <link>/tags/ragu/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ragu/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>sandwich</title>
+      <link>/tags/sandwich/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sandwich/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>/tags/ruby/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ruby/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
