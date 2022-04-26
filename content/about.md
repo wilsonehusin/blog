@@ -20,7 +20,7 @@ Come say hi! (or [hire me](/hire-me))
 
 [`email`](mailto:wilson@husin.dev)
 [`github`](https://github.com/wilsonehusin)
-[`linkedin`](https://linkedin.con/in/wilsonehusin)
+[`linkedin`](https://linkedin.com/in/wilsonehusin)
 [`twitter`](https://twitter.com/wilsonehusin)
 
 ### miscellaneous
