@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://husin.dev/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 10

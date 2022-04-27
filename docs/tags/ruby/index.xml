@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ruby on Wilson&#39;s Journal</title>
-    <link>/tags/ruby/</link>
+    <link>https://husin.dev/tags/ruby/</link>
     <description>Recent content in ruby on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>metaprogramming json to ruby</title>
-      <link>/w/202112070000/</link>
+      <link>https://husin.dev/w/202112070000/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/w/202112070000/</guid>
+      <guid>https://husin.dev/w/202112070000/</guid>
       <description>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;</description>
       <content>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
@@ -121,7 +121,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;p&gt;Thanks for reading this silly thought experiment! I had lots of fun writing it.&lt;/p&gt;
 &lt;p&gt;In a less silly fashion, I once wrote about &lt;a href=&#34;https://gist.github.com/wilsonehusin/dee7cf99ad6f1d94369dc6f31268a600&#34;&gt;getting familiar with Ruby syntax&lt;/a&gt; and &lt;a href=&#34;https://gist.github.com/wilsonehusin/cbcf6d98207c596837351f4dd87e539a&#34;&gt;building duck-typed objects in Ruby&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you have thoughts, &lt;a href=&#34;/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;</content>
+&lt;p&gt;If you have thoughts, &lt;a href=&#34;https://husin.dev/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;</content>
     </item>
     
   </channel>

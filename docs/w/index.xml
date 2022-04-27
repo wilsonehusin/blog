@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>words on Wilson&#39;s Journal</title>
-    <link>/w/</link>
+    <link>https://husin.dev/w/</link>
     <description>Recent content in words on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/w/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/w/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>url rewrites</title>
-      <link>/w/202204270512/</link>
+      <link>https://husin.dev/w/202204270512/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/w/202204270512/</guid>
+      <guid>https://husin.dev/w/202204270512/</guid>
       <description>I did some URL rewriting for this site:
  /words/:id =&amp;gt; /w/:id /monthly/:id =&amp;gt; /m/:id /pictures/:id =&amp;gt; /p/:id  Existing posts has aliases which will redirect to the new URL. I think I made all the changes required in this site as well as external references. I would appreciate it if you let me know what I missed!
 New URL format will be used from hereon!</description>
@@ -31,10 +31,10 @@ I would appreciate it if you let me know what I missed!&lt;/p&gt;
     
     <item>
       <title>tandem bike and team slack</title>
-      <link>/w/202204080000/</link>
+      <link>https://husin.dev/w/202204080000/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/w/202204080000/</guid>
+      <guid>https://husin.dev/w/202204080000/</guid>
       <description>I had this conversation today, which I think is worth sharing more broadly.
 For context, throughout my time at Pivotal / VMware, there is a concept called “flex time” where you are left to your own judgement on what to use 1 hour out of your 8 work hours to make yourself a better engineer (or coworker, or team player). It’s flex because it is (in my experience) truly flex — sometimes the best thing to do with that hour is to cook dinner, read a book, or build a prototype of an idea you have which hasn’t been prioritized by the team.</description>
       <content>&lt;p&gt;I had this conversation today, which I think is worth sharing more broadly.&lt;/p&gt;
@@ -47,10 +47,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>a tale of protocol of minimizing cost</title>
-      <link>/w/202204050000/</link>
+      <link>https://husin.dev/w/202204050000/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/w/202204050000/</guid>
+      <guid>https://husin.dev/w/202204050000/</guid>
       <description>&lt;p&gt;I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”&lt;/p&gt;
@@ -70,10 +70,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>metaprogramming json to ruby</title>
-      <link>/w/202112070000/</link>
+      <link>https://husin.dev/w/202112070000/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/w/202112070000/</guid>
+      <guid>https://husin.dev/w/202112070000/</guid>
       <description>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;</description>
       <content>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
@@ -182,7 +182,7 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;p&gt;Thanks for reading this silly thought experiment! I had lots of fun writing it.&lt;/p&gt;
 &lt;p&gt;In a less silly fashion, I once wrote about &lt;a href=&#34;https://gist.github.com/wilsonehusin/dee7cf99ad6f1d94369dc6f31268a600&#34;&gt;getting familiar with Ruby syntax&lt;/a&gt; and &lt;a href=&#34;https://gist.github.com/wilsonehusin/cbcf6d98207c596837351f4dd87e539a&#34;&gt;building duck-typed objects in Ruby&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you have thoughts, &lt;a href=&#34;/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;</content>
+&lt;p&gt;If you have thoughts, &lt;a href=&#34;https://husin.dev/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;</content>
     </item>
     
   </channel>
