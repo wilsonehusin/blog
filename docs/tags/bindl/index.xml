@@ -9,15 +9,15 @@
     <lastBuildDate>Tue, 26 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/bindl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>april 2022</title>
-      <link>/monthly/202204/</link>
+      <link>/m/202204/</link>
       <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/monthly/202204/</guid>
+      <guid>/m/202204/</guid>
       <description>food We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get a beautiful bowl of Tsukemen from Tsujita. Absolutely lovely.
 I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is Halal Guys chicken platter. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.</description>
       <content>&lt;h1 id=&#34;food&#34;&gt;food&lt;/h1&gt;
-&lt;p&gt;We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get &lt;a href=&#34;/pictures/202204050000&#34;&gt;a beautiful bowl of Tsukemen from Tsujita&lt;/a&gt;. Absolutely lovely.&lt;/p&gt;
-&lt;p&gt;I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is &lt;a href=&#34;/pictures/202204210000&#34;&gt;Halal Guys chicken platter&lt;/a&gt;. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.&lt;/p&gt;
+&lt;p&gt;We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get &lt;a href=&#34;/p/202204050000&#34;&gt;a beautiful bowl of Tsukemen from Tsujita&lt;/a&gt;. Absolutely lovely.&lt;/p&gt;
+&lt;p&gt;I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is &lt;a href=&#34;/p/202204210000&#34;&gt;Halal Guys chicken platter&lt;/a&gt;. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.&lt;/p&gt;
 &lt;h1 id=&#34;bindl-its-public&#34;&gt;bindl: it&amp;rsquo;s public!&lt;/h1&gt;
 &lt;p&gt;After writing out last month&amp;rsquo;s update, I practically worked on Bindl most of the time I was on my computer. The project is finally public on &lt;a href=&#34;https://bindl.dev&#34;&gt;bindl.dev&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Since then, I have started a few other projects which uses Bindl as a dependency manager. The exercise of using-your-own tools led me to building &lt;a href=&#34;https://github.com/bindl-dev/bindl/blob/main/action.yaml&#34;&gt;Bindl Action&lt;/a&gt; and a &lt;a href=&#34;https://github.com/bindl-dev/bindl/blob/main/bootstrap.sh&#34;&gt;bootstrap script&lt;/a&gt;.&lt;/p&gt;
@@ -39,10 +39,10 @@ I still cook a lot, which at this point does not really come as news to anyone. 
     
     <item>
       <title>march 2022</title>
-      <link>/monthly/202203/</link>
+      <link>/m/202203/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/monthly/202203/</guid>
+      <guid>/m/202203/</guid>
       <description>making ragù and pasta I made a lot of pasta this month. For the most part, I’m giving credit to Kenji’s video on Ragù Bolognese which led me to make it for the first time early March. It was a lot of effort cutting and prepping the ingredients, but most of the cooking was just in the background simmering. I also froze them using ice cube trays and just pop several to cook them during weekdays, tasty in 10 minutes!</description>
       <content>&lt;h1 id=&#34;making-ragù-and-pasta&#34;&gt;making ragù and pasta&lt;/h1&gt;
 &lt;p&gt;I made a lot of pasta this month. For the most part, I’m giving credit to &lt;a href=&#34;https://youtu.be/cvROmO5ODnQ&#34;&gt;Kenji’s video on Ragù Bolognese&lt;/a&gt; which led me to make it for the first time early March. It was a lot of effort cutting and prepping the ingredients, but most of the cooking was just in the background simmering. I also &lt;a href=&#34;https://youtu.be/V5WR-K0zJYs&#34;&gt;froze them using ice cube trays&lt;/a&gt; and just pop several to cook them during weekdays, tasty in 10 minutes!&lt;/p&gt;

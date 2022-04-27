@@ -20,7 +20,7 @@ Having said that, I'm a proponent of paired programming. Pairing taught me to be
 
 ## let's talk ruby
 
-I have hosted several sessions on Ruby at workplace, particularly for ramping up engineers with no Ruby experience to an established Ruby project. I led design, implementation, and eventually roll out of Ruby performance initiatives which sped up code execution by 60%. [I like to have fun when I write Ruby](/words/202112070000).
+I have hosted several sessions on Ruby at workplace, particularly for ramping up engineers with no Ruby experience to an established Ruby project. I led design, implementation, and eventually roll out of Ruby performance initiatives which sped up code execution by 60%. [I like to have fun when I write Ruby](/w/202112070000).
 
 ## ship the containers
 

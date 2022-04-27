@@ -1,0 +1,5 @@
+---
+title: words
+aliases:
+- /words/
+---

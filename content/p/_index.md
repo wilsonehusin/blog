@@ -1,0 +1,5 @@
+---
+title: pictures
+aliases:
+- /pictures/
+---

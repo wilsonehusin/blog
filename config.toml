@@ -86,17 +86,17 @@ paginate = 10
         weight = 50
         identifier = "words"
         name = "words"
-        url = "/words"
+        url = "/w"
       [[languages.en.menu.main]]
         weight = 60
         identifier = "pictures"
         name = "pictures"
-        url = "/pictures"
+        url = "/p"
       [[languages.en.menu.main]]
         weight = 70
         identifier = "monthly"
         name = "monthly"
-        url = "/monthly"
+        url = "/m"
       [[languages.en.menu.main]]
         weight = 80
         identifier = "now"

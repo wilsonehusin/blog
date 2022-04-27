@@ -1,8 +1,8 @@
 # wilson's journal
 
-Read more [`about me`](/about) or my uncategorized [`words`](/words).
+Read more [`about me`](/about) or my uncategorized [`words`](/w).
 
-Sometimes I choose to share stories through [`pictures`](/pictures).
+Sometimes I choose to share stories through [`pictures`](/p).
 
-I write [`monthly`](/month) about what I personally was up to.    
+I write [`monthly`](/m) about what I personally was up to.    
 Like [`now`](/now) page, with more recency and mundane stuff.

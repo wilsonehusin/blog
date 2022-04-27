@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>trash talk in 48 languages</title>
-      <link>/pictures/202204270004/</link>
+      <link>/p/202204270004/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/pictures/202204270004/</guid>
+      <guid>/p/202204270004/</guid>
       <description>  </description>
       <content>
 &lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
@@ -24,16 +24,38 @@
     </item>
     
     <item>
+      <title>url rewrites</title>
+      <link>/w/202204270512/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/w/202204270512/</guid>
+      <description>I did some URL rewriting for this site:
+ /words/:id =&amp;gt; /w/:id /monthly/:id =&amp;gt; /m/:id /pictures/:id =&amp;gt; /p/:id  Existing posts has aliases which will redirect to the new URL. I think I made all the changes required in this site as well as external references. I would appreciate it if you let me know what I missed!
+New URL format will be used from hereon!</description>
+      <content>&lt;p&gt;I did some URL rewriting for this site:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/words/:id&lt;/code&gt; =&amp;gt; &lt;code&gt;/w/:id&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/monthly/:id&lt;/code&gt; =&amp;gt; &lt;code&gt;/m/:id&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/pictures/:id&lt;/code&gt; =&amp;gt; &lt;code&gt;/p/:id&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Existing posts has aliases which will redirect to the new URL.
+I think I made all the changes required in this site as well as external references.
+I would appreciate it if you let me know what I missed!&lt;/p&gt;
+&lt;p&gt;New URL format will be used from hereon!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>april 2022</title>
-      <link>/monthly/202204/</link>
+      <link>/m/202204/</link>
       <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/monthly/202204/</guid>
+      <guid>/m/202204/</guid>
       <description>food We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get a beautiful bowl of Tsukemen from Tsujita. Absolutely lovely.
 I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is Halal Guys chicken platter. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.</description>
       <content>&lt;h1 id=&#34;food&#34;&gt;food&lt;/h1&gt;
-&lt;p&gt;We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get &lt;a href=&#34;/pictures/202204050000&#34;&gt;a beautiful bowl of Tsukemen from Tsujita&lt;/a&gt;. Absolutely lovely.&lt;/p&gt;
-&lt;p&gt;I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is &lt;a href=&#34;/pictures/202204210000&#34;&gt;Halal Guys chicken platter&lt;/a&gt;. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.&lt;/p&gt;
+&lt;p&gt;We were in Los Angeles earlier this month. While I did not get as much tacos as I wanted, I did get &lt;a href=&#34;/p/202204050000&#34;&gt;a beautiful bowl of Tsukemen from Tsujita&lt;/a&gt;. Absolutely lovely.&lt;/p&gt;
+&lt;p&gt;I still cook a lot, which at this point does not really come as news to anyone. Personal favorite from the last month is &lt;a href=&#34;/p/202204210000&#34;&gt;Halal Guys chicken platter&lt;/a&gt;. My confession is that I have only eaten lamb and steak at Halal Guys, so I can&amp;rsquo;t honestly compare between what I made and the original.&lt;/p&gt;
 &lt;h1 id=&#34;bindl-its-public&#34;&gt;bindl: it&amp;rsquo;s public!&lt;/h1&gt;
 &lt;p&gt;After writing out last month&amp;rsquo;s update, I practically worked on Bindl most of the time I was on my computer. The project is finally public on &lt;a href=&#34;https://bindl.dev&#34;&gt;bindl.dev&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Since then, I have started a few other projects which uses Bindl as a dependency manager. The exercise of using-your-own tools led me to building &lt;a href=&#34;https://github.com/bindl-dev/bindl/blob/main/action.yaml&#34;&gt;Bindl Action&lt;/a&gt; and a &lt;a href=&#34;https://github.com/bindl-dev/bindl/blob/main/bootstrap.sh&#34;&gt;bootstrap script&lt;/a&gt;.&lt;/p&gt;
@@ -55,10 +77,10 @@ I still cook a lot, which at this point does not really come as news to anyone. 
     
     <item>
       <title>kyōto-style cold drip coffee</title>
-      <link>/pictures/202204250000/</link>
+      <link>/p/202204250000/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/pictures/202204250000/</guid>
+      <guid>/p/202204250000/</guid>
       <description>I am somehow in possession of these thin, but otherwise okay plastic bowls. Quite plenty of them.
 Instead of being wasteful and throwing them out after single-use, I decided to have fun and play some arts and crafts with it. Not too shabby, I think. Likely I will add paper filter on top of the coffee bed for better water distribution next time.
   </description>
@@ -84,10 +106,10 @@ Likely I will add paper filter on top of the coffee bed for better water distrib
     
     <item>
       <title>halal guys chicken platter at home</title>
-      <link>/pictures/202204210000/</link>
+      <link>/p/202204210000/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/pictures/202204210000/</guid>
+      <guid>/p/202204210000/</guid>
       <description>  </description>
       <content>
 &lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
@@ -100,10 +122,10 @@ Likely I will add paper filter on top of the coffee bed for better water distrib
     
     <item>
       <title>tandem bike and team slack</title>
-      <link>/words/202204080000/</link>
+      <link>/w/202204080000/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/words/202204080000/</guid>
+      <guid>/w/202204080000/</guid>
       <description>I had this conversation today, which I think is worth sharing more broadly.
 For context, throughout my time at Pivotal / VMware, there is a concept called “flex time” where you are left to your own judgement on what to use 1 hour out of your 8 work hours to make yourself a better engineer (or coworker, or team player). It’s flex because it is (in my experience) truly flex — sometimes the best thing to do with that hour is to cook dinner, read a book, or build a prototype of an idea you have which hasn’t been prioritized by the team.</description>
       <content>&lt;p&gt;I had this conversation today, which I think is worth sharing more broadly.&lt;/p&gt;
@@ -116,10 +138,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>los angeles customers are built different</title>
-      <link>/pictures/202204060000/</link>
+      <link>/p/202204060000/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/pictures/202204060000/</guid>
+      <guid>/p/202204060000/</guid>
       <description>  </description>
       <content>
 &lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
@@ -132,10 +154,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>a tale of protocol of minimizing cost</title>
-      <link>/words/202204050000/</link>
+      <link>/w/202204050000/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/words/202204050000/</guid>
+      <guid>/w/202204050000/</guid>
       <description>&lt;p&gt;I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”&lt;/p&gt;
@@ -155,10 +177,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>tsujita tsukemen</title>
-      <link>/pictures/202204050000/</link>
+      <link>/p/202204050000/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/pictures/202204050000/</guid>
+      <guid>/p/202204050000/</guid>
       <description>  </description>
       <content>
 &lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
@@ -171,10 +193,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>march 2022</title>
-      <link>/monthly/202203/</link>
+      <link>/m/202203/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/monthly/202203/</guid>
+      <guid>/m/202203/</guid>
       <description>making ragù and pasta I made a lot of pasta this month. For the most part, I’m giving credit to Kenji’s video on Ragù Bolognese which led me to make it for the first time early March. It was a lot of effort cutting and prepping the ingredients, but most of the cooking was just in the background simmering. I also froze them using ice cube trays and just pop several to cook them during weekdays, tasty in 10 minutes!</description>
       <content>&lt;h1 id=&#34;making-ragù-and-pasta&#34;&gt;making ragù and pasta&lt;/h1&gt;
 &lt;p&gt;I made a lot of pasta this month. For the most part, I’m giving credit to &lt;a href=&#34;https://youtu.be/cvROmO5ODnQ&#34;&gt;Kenji’s video on Ragù Bolognese&lt;/a&gt; which led me to make it for the first time early March. It was a lot of effort cutting and prepping the ingredients, but most of the cooking was just in the background simmering. I also &lt;a href=&#34;https://youtu.be/V5WR-K0zJYs&#34;&gt;froze them using ice cube trays&lt;/a&gt; and just pop several to cook them during weekdays, tasty in 10 minutes!&lt;/p&gt;
@@ -211,10 +233,10 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
     
     <item>
       <title>metaprogramming json to ruby</title>
-      <link>/words/202112070000/</link>
+      <link>/w/202112070000/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/words/202112070000/</guid>
+      <guid>/w/202112070000/</guid>
       <description>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;</description>
       <content>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
@@ -343,7 +365,7 @@ hello 👋🏼 I&amp;rsquo;m a software engineer primarily working on cloud appl
 &lt;p&gt;My activity in the recent years has been around open-source product and community. As such, I find asynchronous communication by default to be preferable. Not only it removes the &amp;ldquo;meetings which could have been emails&amp;rdquo;, but also encourages more thoughtful writing and reading.&lt;/p&gt;
 &lt;p&gt;Having said that, I&amp;rsquo;m a proponent of paired programming. Pairing taught me to be more articulate in my ideas and more receptive of criticisms. &lt;a href=&#34;https://youtu.be/VzWLGMtXflg&#34;&gt;Sandi Metz said that our industry is insufficiently persuasive&lt;/a&gt;, and pairing is a wonderful way to nurture those skills in an organization, IMHO. Not to say that we should pair program all the time, but there is value in doing it and &lt;strong&gt;making it acceptable to be done effectively in your organization&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;lets-talk-ruby&#34;&gt;let&amp;rsquo;s talk ruby&lt;/h2&gt;
-&lt;p&gt;I have hosted several sessions on Ruby at workplace, particularly for ramping up engineers with no Ruby experience to an established Ruby project. I led design, implementation, and eventually roll out of Ruby performance initiatives which sped up code execution by 60%. &lt;a href=&#34;/words/202112070000&#34;&gt;I like to have fun when I write Ruby&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have hosted several sessions on Ruby at workplace, particularly for ramping up engineers with no Ruby experience to an established Ruby project. I led design, implementation, and eventually roll out of Ruby performance initiatives which sped up code execution by 60%. &lt;a href=&#34;/w/202112070000&#34;&gt;I like to have fun when I write Ruby&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;ship-the-containers&#34;&gt;ship the containers&lt;/h2&gt;
 &lt;p&gt;In open-source, I contributed to Kubernetes to &lt;a href=&#34;https://github.com/kubernetes/kubernetes/pull/99178&#34;&gt;migrate the last container image to Distroless&lt;/a&gt;, removing false positive CVE signals from image scanners. I also worked on &lt;a href=&#34;https://github.com/kubernetes/sig-release/search?q=wilsonehusin&#34;&gt;Kubernetes release team in several release cycles&lt;/a&gt; to compile release notes as well as maintaining the tooling for it.&lt;/p&gt;
 &lt;h2 id=&#34;version-control-everything&#34;&gt;version-control everything&lt;/h2&gt;
@@ -360,14 +382,16 @@ hello 👋🏼 I&amp;rsquo;m a software engineer primarily working on cloud appl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/now/</guid>
-      <description> still on leave from day job playing kirby and the forgotten land! looking for more of delicious meal-prepping ideas cleaning up personal domains and deployments, created these along the way:  bindl/spartan for HTTP 3xx redirect rules gomodurl for vanity domain in go module imports (e.g. go.husin.dev/gomodurl)   started doing v3 routes (and bouldering more than once a week)  </description>
-      <content>&lt;ul&gt;
+      <description>(What is a now page?)
+ still on leave from day job playing kirby and the forgotten land! looking for more of delicious meal-prepping ideas cleaning up personal domains and deployments, created these along the way:  bindl-dev/spartan for HTTP 3xx redirect rules gomodurl for vanity domain in go module imports (e.g. go.husin.dev/gomodurl)   started doing v3 routes (and bouldering more than once a week)  </description>
+      <content>&lt;p&gt;(&lt;a href=&#34;https://nownownow.com/about&#34;&gt;What is a now page?&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;still on leave from day job&lt;/li&gt;
 &lt;li&gt;playing kirby and the forgotten land!&lt;/li&gt;
 &lt;li&gt;looking for more of delicious meal-prepping ideas&lt;/li&gt;
 &lt;li&gt;cleaning up personal domains and deployments, created these along the way:
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bindl-dev/spartan&#34;&gt;&lt;code&gt;bindl/spartan&lt;/code&gt;&lt;/a&gt; for &lt;code&gt;HTTP 3xx&lt;/code&gt; redirect rules&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bindl-dev/spartan&#34;&gt;&lt;code&gt;bindl-dev/spartan&lt;/code&gt;&lt;/a&gt; for &lt;code&gt;HTTP 3xx&lt;/code&gt; redirect rules&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/wilsonehusin/gomodurl&#34;&gt;&lt;code&gt;gomodurl&lt;/code&gt;&lt;/a&gt; for vanity domain in go module imports (e.g. &lt;a href=&#34;https://go.husin.dev/gomodurl&#34;&gt;&lt;code&gt;go.husin.dev/gomodurl&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;

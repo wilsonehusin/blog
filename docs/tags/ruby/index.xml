@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>metaprogramming json to ruby</title>
-      <link>/words/202112070000/</link>
+      <link>/w/202112070000/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/words/202112070000/</guid>
+      <guid>/w/202112070000/</guid>
       <description>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;</description>
       <content>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
