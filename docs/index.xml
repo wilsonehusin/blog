@@ -67,27 +67,6 @@ Likely I will add paper filter on top of the coffee bed for better water distrib
     </item>
     
     <item>
-      <title>now</title>
-      <link>/now/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/now/</guid>
-      <description> still on leave from day job looking for more of delicious meal-prepping ideas cleaning up personal domains and deployments, created these along the way:  bindl/spartan for HTTP 3xx redirect rules gomodurl for vanity domain in go module imports (e.g. go.husin.dev/gomodurl)   started doing v3 routes (and bouldering more than once a week)  </description>
-      <content>&lt;ul&gt;
-&lt;li&gt;still on leave from day job&lt;/li&gt;
-&lt;li&gt;looking for more of delicious meal-prepping ideas&lt;/li&gt;
-&lt;li&gt;cleaning up personal domains and deployments, created these along the way:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bindl-dev/spartan&#34;&gt;&lt;code&gt;bindl/spartan&lt;/code&gt;&lt;/a&gt; for &lt;code&gt;HTTP 3xx&lt;/code&gt; redirect rules&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/wilsonehusin/gomodurl&#34;&gt;&lt;code&gt;gomodurl&lt;/code&gt;&lt;/a&gt; for vanity domain in go module imports (e.g. &lt;a href=&#34;https://go.husin.dev/gomodurl&#34;&gt;&lt;code&gt;go.husin.dev/gomodurl&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;started doing v3 routes (and bouldering more than once a week)&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
       <title>halal guys chicken platter at home</title>
       <link>/pictures/202204210000/</link>
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
@@ -357,6 +336,28 @@ hello 👋🏼 I&amp;rsquo;m a software engineer primarily working on cloud appl
 &lt;p&gt;For the record, I would love to have a job interview where I would bring a project and talk about it as an assessment of my literacy and cooperativeness.&lt;/p&gt;
 &lt;h2 id=&#34;have-some-fun&#34;&gt;have some fun&lt;/h2&gt;
 &lt;p&gt;I like to think of software development like cooking, &lt;a href=&#34;https://www.robinsloan.com/notes/home-cooked-app/&#34;&gt;inspired by this blog by Robin Sloan&lt;/a&gt;. I happen to be quite good that someone pays me to do it, but I also like to do it for myself. &lt;a href=&#34;https://github.com/xargs-dev/archy/&#34;&gt;I build silly things&lt;/a&gt; as an equivalent of &amp;ldquo;making cookies for the house today&amp;rdquo; — because it&amp;rsquo;s fun!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>now</title>
+      <link>/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/now/</guid>
+      <description> still on leave from day job playing kirby and the forgotten land! looking for more of delicious meal-prepping ideas cleaning up personal domains and deployments, created these along the way:  bindl/spartan for HTTP 3xx redirect rules gomodurl for vanity domain in go module imports (e.g. go.husin.dev/gomodurl)   started doing v3 routes (and bouldering more than once a week)  </description>
+      <content>&lt;ul&gt;
+&lt;li&gt;still on leave from day job&lt;/li&gt;
+&lt;li&gt;playing kirby and the forgotten land!&lt;/li&gt;
+&lt;li&gt;looking for more of delicious meal-prepping ideas&lt;/li&gt;
+&lt;li&gt;cleaning up personal domains and deployments, created these along the way:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bindl-dev/spartan&#34;&gt;&lt;code&gt;bindl/spartan&lt;/code&gt;&lt;/a&gt; for &lt;code&gt;HTTP 3xx&lt;/code&gt; redirect rules&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wilsonehusin/gomodurl&#34;&gt;&lt;code&gt;gomodurl&lt;/code&gt;&lt;/a&gt; for vanity domain in go module imports (e.g. &lt;a href=&#34;https://go.husin.dev/gomodurl&#34;&gt;&lt;code&gt;go.husin.dev/gomodurl&lt;/code&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;started doing v3 routes (and bouldering more than once a week)&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     

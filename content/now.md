@@ -1,9 +1,9 @@
 ---
 title: now
-date: 2022-04-25
 ---
 
 - still on leave from day job
+- playing kirby and the forgotten land!
 - looking for more of delicious meal-prepping ideas
 - cleaning up personal domains and deployments, created these along the way:
   - [`bindl/spartan`](https://github.com/bindl-dev/spartan) for `HTTP 3xx` redirect rules

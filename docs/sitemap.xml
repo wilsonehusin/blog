@@ -36,9 +36,6 @@
     <loc>/pictures/202204250000/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/now/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/pictures/</loc>
     <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -93,6 +90,8 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/hire-me/</loc>
+  </url><url>
+    <loc>/now/</loc>
   </url><url>
     <loc>/about/</loc>
   </url>
