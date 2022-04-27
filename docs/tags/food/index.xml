@@ -13,8 +13,13 @@
       <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/pictures/202204210000/</guid>
-      <description></description>
-      <content>&lt;p&gt;&lt;img src=&#34;/misc/halal-guys-home-platter.webp&#34; alt=&#34;Plate of greens with yellow rice and grilled chicken&#34;&gt;&lt;/p&gt;
+      <description>  </description>
+      <content>
+&lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
+  &lt;img src=&#34;/misc/halal-guys-home-platter.webp&#34;  alt=&#34;Plate of greens with yellow rice and grilled chicken&#34;   /&gt;
+  
+&lt;/figure&gt;
+
 </content>
     </item>
     

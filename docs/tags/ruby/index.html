@@ -195,115 +195,14 @@
           
             <p>I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with <a href="https://www.boredapi.com">Bored API</a>.</p>
 <p>I had learned about Bored API recently from <a href="https://youtu.be/g2zJC2XKblo">a talk by Justin Searls</a>. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>❯ curl -sSL https://boredapi.com/api/activity?type<span style="color:#f92672">=</span>busywork | jq
-</span></span><span style="display:flex;"><span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;activity&#34;</span>: <span style="color:#e6db74">&#34;Draft your living will&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;busywork&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;participants&#34;</span>: 1,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;price&#34;</span>: 0,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;link&#34;</span>: <span style="color:#e6db74">&#34;https://www.investopedia.com/terms/l/livingwill.asp&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;key&#34;</span>: <span style="color:#e6db74">&#34;2360432&#34;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;accessibility&#34;</span>: 0.5
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span></code></pre></div><h1 id="the-ruby-parts">The Ruby parts</h1>
-<p>Let&rsquo;s try making a Ruby client for Bored API! Something simple that would let us do:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">Activity</span><span style="color:#f92672">.</span>new(response)<span style="color:#f92672">.</span>type <span style="color:#75715e"># =&gt; &#34;busywork&#34;</span>
-</span></span></code></pre></div><h2 id="naive">Naive</h2>
-<p>Given a JSON string to process, a boring (<em>ha ha</em>) approach can look something like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>require <span style="color:#e6db74">&#34;json&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Activity</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">attr_reader</span> <span style="color:#e6db74">:activity</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">:type</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">:participants</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">:price</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">:link</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">:key</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">:accessibility</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># @param raw_string [String] JSON string returned by Bored API</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">initialize</span>(raw_string)
-</span></span><span style="display:flex;"><span>    response_data <span style="color:#f92672">=</span> <span style="color:#66d9ef">JSON</span><span style="color:#f92672">.</span>parse raw_string
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    @activity <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;activity&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>    @type <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;type&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>    @participants <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;participants&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>    @price <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;price&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>    @link <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;link&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>    @key <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;key&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>    @accessibility <span style="color:#f92672">=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;accessibility&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Quack</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">name</span>
-</span></span><span style="display:flex;"><span>    activity
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><p>Now with a valid input, we can expect the following to work:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">Activity</span><span style="color:#f92672">.</span>new(response)<span style="color:#f92672">.</span>name <span style="color:#75715e"># =&gt; &#34;Draft your living will!&#34;</span>
-</span></span></code></pre></div><p>Alright, that worked. <code>attr_reader</code> saved us from writing multiple method definitions for the properties. However, we are currently front-loading the data parsing, which we can optimize with memoization tricks.</p>
-<h2 id="lazy-evaluation">Lazy evaluation</h2>
-<p>One trick that we will do here is to store the <code>raw_string</code> value and parse only when needed.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">initialize</span>(raw_string)
-</span></span><span style="display:flex;"><span>  @raw_string <span style="color:#f92672">=</span> raw_string
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">response_data</span>
-</span></span><span style="display:flex;"><span>  @response_data <span style="color:#f92672">||=</span> <span style="color:#66d9ef">JSON</span><span style="color:#f92672">.</span>parse @raw_string
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><p>Although that means we can&rsquo;t use <code>attr_reader</code> anymore. To maintain functionality, we need to add something like the following to <em>every property</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">participants</span>
-</span></span><span style="display:flex;"><span>  @participants <span style="color:#f92672">||=</span> response_data<span style="color:#f92672">[</span><span style="color:#e6db74">&#34;participants&#34;</span><span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><p>Now that class doesn&rsquo;t look so elegant anymore, does it? More than half of the methods defined in the class look like copy-pasted template.</p>
-<h2 id="misusing-method_missing">(Mis)using <code>method_missing</code></h2>
-<p>If you, like me, have a fond memory of the talk <a href="https://www.destroyallsoftware.com/talks/wat">Wat by Gary Bernhardt</a>, you might remember that Ruby has a method <code>method_missing</code> in <code>BasicObject</code> (<a href="https://ruby-doc.org/core-3.0.2/BasicObject.html#method-i-method_missing">doc</a>).</p>
-<p>So, instead of writing <code>def participants</code> like above, we can write one method to cover all the properties of an <code>Activity</code>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">PROPERTIES</span> <span style="color:#f92672">=</span> <span style="color:#f92672">%</span>i<span style="color:#f92672">[</span>activity type participants price link key accessibility<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">method_missing</span>(method_name, <span style="color:#f92672">*</span>args, <span style="color:#f92672">&amp;</span>block)
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">super</span> <span style="color:#66d9ef">unless</span> <span style="color:#66d9ef">PROPERTIES</span><span style="color:#f92672">.</span>include? method_name
-</span></span><span style="display:flex;"><span>  response_data<span style="color:#f92672">[</span>method_name<span style="color:#f92672">.</span>to_s<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><h2 id="more-memoization-with-class_eval">More memoization with <code>class_eval</code></h2>
-<p>Some might say that they dislike <code>method_missing</code> and would rather use <code>class_eval</code> (<a href="https://ruby-doc.org/core-3.0.2/Module.html#method-i-class_eval">doc</a>) like <a href="https://github.com/lostisland/faraday/blob/65b8d3904f3a62e19444c9f4b7ef5b3ffe7e3e6d/lib/faraday/connection.rb#L197-L206">how Faraday gem does it</a>. This approach would also allow us to bring back memoization per property, instead of accessing the <code>Hash</code> object on every method call.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">PROPERTIES</span> <span style="color:#f92672">=</span> <span style="color:#f92672">%</span>i<span style="color:#f92672">[</span>activity type participants price link key accessibility<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">PROPERTIES</span><span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>prop<span style="color:#f92672">|</span>
-</span></span><span style="display:flex;"><span>  class_eval <span style="color:#e6db74">&lt;&lt;-RUBY, __FILE__, __LINE__ + 1
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span>    <span style="color:#66d9ef">def</span> <span style="color:#75715e">#{prop}</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#960050;background-color:#1e0010">@</span><span style="color:#75715e">#{prop} ||= response_data[&#34;#{prop}&#34;]</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">RUBY</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><h2 id="following-convention-with-define_method">Following convention with <code>define_method</code></h2>
-<p>We have reached a point where we stray further from truth, where arguably, this is an over-complication of <code>attr_reader</code>. What if we could make something like <code>attr_reader</code>? Let me introduce you to <code>define_method</code> (<a href="https://ruby-doc.org/core-3.0.2/Module.html#method-i-define_method">doc</a>).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">module</span> Bored
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prop_reader</span>(<span style="color:#f92672">*</span>props)
-</span></span><span style="display:flex;"><span>    props<span style="color:#f92672">.</span>each <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>prop<span style="color:#f92672">|</span>
-</span></span><span style="display:flex;"><span>      define_method prop <span style="color:#66d9ef">do</span> <span style="color:#f92672">|</span>p<span style="color:#f92672">|</span>
-</span></span><span style="display:flex;"><span>        response_data<span style="color:#f92672">[</span>p<span style="color:#f92672">.</span>to_s<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Activity</span>
-</span></span><span style="display:flex;"><span>    prop_reader <span style="color:#e6db74">:activity</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:type</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:participants</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:price</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:link</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:key</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:accessibility</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">...</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
-</span></span></code></pre></div><hr>
-<p>Thanks for reading this silly thought experiment! I had lots of fun writing it.</p>
-<p>In a less silly fashion, I once wrote about <a href="https://gist.github.com/wilsonehusin/dee7cf99ad6f1d94369dc6f31268a600">getting familiar with Ruby syntax</a> and <a href="https://gist.github.com/wilsonehusin/cbcf6d98207c596837351f4dd87e539a">building duck-typed objects in Ruby</a>.</p>
-<p>If you have thoughts, <a href="/about#contact--social">I would love to hear them</a>!</p>
-
           
         </div>
 
+        
+        <div>
+          <a class="read-more button"
+            href="/words/202112070000/">read more →</a>
+        </div>
         
       </div>
     
@@ -321,21 +220,15 @@
   
     <footer class="footer">
   <div class="footer__inner">
-    
       <div class="copyright">
-        <span>© 2022 Powered by <a href="http://gohugo.io">Hugo</a></span>
-    
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+        <span>© 2022 wilson e. husin</span>
+        <span>:: built with hugo <a href="https://github.com/panr/hugo-theme-terminal">terminal</a> theme</span>
       </div>
   </div>
 </footer>
 
 <script src="/assets/main.js"></script>
 <script src="/assets/prism.js"></script>
-
-
-
-
 
 
 

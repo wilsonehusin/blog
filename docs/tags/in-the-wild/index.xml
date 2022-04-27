@@ -13,8 +13,13 @@
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/pictures/202204060000/</guid>
-      <description></description>
-      <content>&lt;p&gt;&lt;img src=&#34;/misc/cafe-please-finish-phone-sign.webp&#34; alt=&#34;Coffee shop cashier register with a sign: &amp;amp;ldquo;Please finish all phone conversations before placing your order, thanks!&#34;&gt;&lt;/p&gt;
+      <description>  </description>
+      <content>
+&lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
+  &lt;img src=&#34;/misc/cafe-please-finish-phone-sign.webp&#34;  alt=&#34;Coffee shop cashier register with a sign: &amp;#39;Please finish all phone conversations before placing your order, thanks!&amp;#39;&#34;   /&gt;
+  
+&lt;/figure&gt;
+
 </content>
     </item>
     

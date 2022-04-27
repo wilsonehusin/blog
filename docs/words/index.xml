@@ -29,10 +29,12 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/words/202204050000/</guid>
-      <description>I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)
- Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”
-Microsoft would want you to elaborate cryptographic scheme for Alice and Bob to communicate secretly.
-However, Google would want you to start with: “Alice should tell Bob to call them, and provide backup plan if Bob has trouble doing so.</description>
+      <description>&lt;p&gt;I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”&lt;/p&gt;
+&lt;p&gt;Microsoft would want you to elaborate cryptographic scheme for Alice and Bob to communicate secretly.&lt;/p&gt;
+&lt;p&gt;However, Google would want you to start with: “Alice should tell Bob to call them, and provide backup plan if Bob has trouble doing so.”&lt;/p&gt;
+&lt;/blockquote&gt;</description>
       <content>&lt;p&gt;I once stumbled on a story from the era of workers’ competence in Silicon Valley being measured through brainteasers: (paraphrased, recited from memory)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Let’s ask a candidate: “Alice would like Bob to call her in the future and Alice would like to keep her phone number private. What should Alice do?”&lt;/p&gt;
@@ -41,8 +43,7 @@ However, Google would want you to start with: “Alice should tell Bob to call t
 &lt;/blockquote&gt;
 &lt;p&gt;Every now and then, I think about this and how my impression of the author’s tone is more about showing the culture at the two companies instead of a puzzle worth solving in an interview.&lt;/p&gt;
 &lt;p&gt;Today, something else clicked in my head: the supposedly Google-way of doing it somewhat resembles how content delivery network (CDN) works — make a request with &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag&#34;&gt;&lt;code&gt;ETag&lt;/code&gt;&lt;/a&gt; attached (using &lt;code&gt;If-None-Match&lt;/code&gt; header) and server will respond with &lt;code&gt;HTTP 304&lt;/code&gt; (i.e. “you are up to date!”) or content with new &lt;code&gt;ETag&lt;/code&gt; will be served in the reply. This allows the potential to save up transfer cost of files from server.&lt;/p&gt;
-&lt;p&gt;This is partially relevant to human interactions too. &lt;a href=&#34;https://nohello.net&#34;&gt;No hello&lt;/a&gt; is often favored to reduce the expensive communication overhead.&lt;/p&gt;
-</content>
+&lt;p&gt;This is partially relevant to human interactions too. &lt;a href=&#34;https://nohello.net&#34;&gt;No hello&lt;/a&gt; is often favored to reduce the expensive communication overhead.&lt;/p&gt;</content>
     </item>
     
     <item>
@@ -51,9 +52,8 @@ However, Google would want you to start with: “Alice should tell Bob to call t
       <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>/words/202112070000/</guid>
-      <description>I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with Bored API.
-I had learned about Bored API recently from a talk by Justin Searls. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.
-❯ curl -sSL https://boredapi.com/api/activity?type=busywork | jq {  &amp;#34;activity&amp;#34;: &amp;#34;Draft your living will&amp;#34;,  &amp;#34;type&amp;#34;: &amp;#34;busywork&amp;#34;,  &amp;#34;participants&amp;#34;: 1,  &amp;#34;price&amp;#34;: 0,  &amp;#34;link&amp;#34;: &amp;#34;https://www.</description>
+      <description>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;</description>
       <content>&lt;p&gt;I was looking for an excuse to revisit Ruby after writing a lot of Go in the recent months, so I thought I would do something with &lt;a href=&#34;https://www.boredapi.com&#34;&gt;Bored API&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I had learned about Bored API recently from &lt;a href=&#34;https://youtu.be/g2zJC2XKblo&#34;&gt;a talk by Justin Searls&lt;/a&gt;. In short, Bored API is an endpoint returning random values with the option of querying based on parameters.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;❯ curl -sSL https://boredapi.com/api/activity?type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;busywork | jq
@@ -160,8 +160,7 @@ I had learned about Bored API recently from a talk by Justin Searls. In short, B
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;p&gt;Thanks for reading this silly thought experiment! I had lots of fun writing it.&lt;/p&gt;
 &lt;p&gt;In a less silly fashion, I once wrote about &lt;a href=&#34;https://gist.github.com/wilsonehusin/dee7cf99ad6f1d94369dc6f31268a600&#34;&gt;getting familiar with Ruby syntax&lt;/a&gt; and &lt;a href=&#34;https://gist.github.com/wilsonehusin/cbcf6d98207c596837351f4dd87e539a&#34;&gt;building duck-typed objects in Ruby&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you have thoughts, &lt;a href=&#34;/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;
-</content>
+&lt;p&gt;If you have thoughts, &lt;a href=&#34;/about#contact--social&#34;&gt;I would love to hear them&lt;/a&gt;!&lt;/p&gt;</content>
     </item>
     
   </channel>
