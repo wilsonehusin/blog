@@ -6,7 +6,27 @@
     <description>Recent content in Tags on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coffee</title>
+      <link>https://husin.dev/tags/coffee/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://husin.dev/tags/coffee/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>reuse</title>
+      <link>https://husin.dev/tags/reuse/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://husin.dev/tags/reuse/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
     <item>
       <title>in-the-wild</title>
       <link>https://husin.dev/tags/in-the-wild/</link>
@@ -73,26 +93,6 @@
       <pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://husin.dev/tags/monthly/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>coffee</title>
-      <link>https://husin.dev/tags/coffee/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://husin.dev/tags/coffee/</guid>
-      <description></description>
-      <content></content>
-    </item>
-    
-    <item>
-      <title>reuse</title>
-      <link>https://husin.dev/tags/reuse/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://husin.dev/tags/reuse/</guid>
       <description></description>
       <content></content>
     </item>
