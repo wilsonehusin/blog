@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://husin.dev/</loc>
-    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://husin.dev/w/202205041403/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://husin.dev/tags/sql/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://husin.dev/tags/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://husin.dev/w/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://husin.dev/w/202205032212/</loc>
     <lastmod>2022-05-03T00:00:00+00:00</lastmod>
@@ -19,12 +31,6 @@
     <lastmod>2022-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://husin.dev/tags/reuse/</loc>
-    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://husin.dev/tags/</loc>
-    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://husin.dev/w/</loc>
     <lastmod>2022-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://husin.dev/p/202205020009/</loc>

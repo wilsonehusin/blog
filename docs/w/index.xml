@@ -6,7 +6,21 @@
     <description>Recent content in words on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/w/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/w/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on delete cascade</title>
+      <link>https://husin.dev/w/202205041403/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://husin.dev/w/202205041403/</guid>
+      <description>I have not written SQL in a while, and today I know I needed to define a column with ON DELETE CASCADE. However, playing out the deletion scenario in my head was challenging (i.e. should it be here or the other table?) — it felt like the first time learning SQL.
+I found a DBA StackExchange thread that was helpful: SQL:2011 Spec of ON DELETE behaviors.</description>
+      <content>&lt;p&gt;I have not written SQL in a while, and today I know I needed to define a column with &lt;code&gt;ON DELETE CASCADE&lt;/code&gt;.
+However, playing out the deletion scenario in my head was challenging (i.e. should it be here or the other table?) — it felt like the first time learning SQL.&lt;/p&gt;
+&lt;p&gt;I found a DBA StackExchange thread that was helpful: &lt;a href=&#34;https://dba.stackexchange.com/a/213239&#34;&gt;SQL:2011 Spec of &lt;code&gt;ON DELETE&lt;/code&gt; behaviors&lt;/a&gt;.&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>adding cover alt text</title>
       <link>https://husin.dev/w/202205032212/</link>
