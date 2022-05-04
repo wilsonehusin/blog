@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>adding cover alt text</title>
+      <link>https://husin.dev/w/202205032212/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://husin.dev/w/202205032212/</guid>
+      <description>The picture above has nothing to do with the post, except that I just finished updating &amp;lt;meta&amp;gt; tags in the templates and now posts with pictures can have link preview with pictures, while having custom alt text in the post.
+If you are using the same hugo terminal theme like this blog, you can do it by overriding the partials (by default, the alt text is post title, which I think isn&amp;rsquo;t quite enough for the way I post pictures).</description>
+      <content>&lt;p&gt;The picture above has nothing to do with the post, except that I just finished updating &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tags in the templates and now posts with pictures can have link preview with pictures, while having custom &lt;code&gt;alt&lt;/code&gt; text in the post.&lt;/p&gt;
+&lt;p&gt;If you are using the same &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal/&#34;&gt;&lt;code&gt;hugo terminal theme&lt;/code&gt;&lt;/a&gt; like this blog, you can do it by overriding the &lt;a href=&#34;https://github.com/wilsonehusin/blog/commit/06558a5a334bfbcb29f1e342faefe4d1c5174c94#diff-dd30a18c966d1e96b055d5c9955d9d8ef1200159705fb5a6323ceb4a89db5be7&#34;&gt;partials&lt;/a&gt; (by default, the alt text is post title, which I think isn&amp;rsquo;t quite enough for the way I post pictures).&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>bottled homebrew kyōto-style cold drip coffee</title>
       <link>https://husin.dev/p/202205030002/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
