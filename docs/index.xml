@@ -22,6 +22,7 @@
   
 &lt;/figure&gt;
 
+
 </content>
     </item>
     
@@ -37,6 +38,7 @@
   &lt;img src=&#34;https://husin.dev/misc/did-you-read-nixos-version.webp&#34;  alt=&#34;NixOS configuration with 6 lines of comment, informing readers that the following line should _not_ be modified in most cases. On the exact line of code, there is inline comment appended: &amp;#39;Did you read the comment?&amp;#39;&#34;   /&gt;
   
 &lt;/figure&gt;
+
 
 </content>
     </item>
@@ -54,6 +56,7 @@
   
 &lt;/figure&gt;
 
+
 </content>
     </item>
     
@@ -69,6 +72,7 @@
   &lt;img src=&#34;https://husin.dev/misc/trash-talk.webp&#34;  alt=&#34;Google Pixel billboard ad promoting Live Translate with &amp;#39;trash talk in 48 languages.&#34;   /&gt;
   
 &lt;/figure&gt;
+
 
 </content>
     </item>
@@ -146,10 +150,12 @@ Likely I will add paper filter on top of the coffee bed for better water distrib
 &lt;/figure&gt;
 
 
+
 &lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
   &lt;img src=&#34;https://husin.dev/kyoto-drip/assembled.webp&#34;  alt=&#34;Assembled stack of kyoto-style cold drip coffee using Hario V60 brewer.&#34;   /&gt;
   
 &lt;/figure&gt;
+
 
 </content>
     </item>
@@ -166,6 +172,7 @@ Likely I will add paper filter on top of the coffee bed for better water distrib
   &lt;img src=&#34;https://husin.dev/misc/halal-guys-home-platter.webp&#34;  alt=&#34;Plate of greens with yellow rice and grilled chicken&#34;   /&gt;
   
 &lt;/figure&gt;
+
 
 </content>
     </item>
@@ -198,6 +205,7 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
   &lt;img src=&#34;https://husin.dev/misc/cafe-please-finish-phone-sign.webp&#34;  alt=&#34;Coffee shop cashier register with a sign: &amp;#39;Please finish all phone conversations before placing your order, thanks!&amp;#39;&#34;   /&gt;
   
 &lt;/figure&gt;
+
 
 </content>
     </item>
@@ -238,6 +246,7 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
   
 &lt;/figure&gt;
 
+
 </content>
     </item>
     
@@ -258,6 +267,7 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
   
 &lt;/figure&gt;
 
+
 &lt;p&gt;Anyhow, this is a &lt;a href=&#34;https://www.etsy.com/listing/1185798417/business-card-9-prong-wdt-assembly&#34;&gt;distribution tool I found on Etsy&lt;/a&gt;. The whole point (hah) is to break up coffee ground clumps into smooth powder such that water can flow evenly through the puck. The concept isn’t new per se — people have been making these tools with 3D printer for a while. But &lt;a href=&#34;https://www.reddit.com/r/espresso/comments/oo3o1n/3d_printed_wdt_tool_now_upgraded_improved_and/&#34;&gt;most of them have a conic-shape&lt;/a&gt;, which increases the cost of shipping, ultimately putting the prices around $20-$30. This new design was created with eliminating that cost in mind, such that it can be shipped in an envelope. Brilliant idea.&lt;/p&gt;
 &lt;h1 id=&#34;please-stand-clear-of-the-doors&#34;&gt;please stand clear of the doors&lt;/h1&gt;
 &lt;p&gt;Have you ever seen a picture of a city where you live in and thought, “wow, this looks like a dream, I want to be there”? I’m lucky to experience that a lot, thanks to &lt;a href=&#34;https://twitter.com/isthelaststop/status/1508691157970157573&#34;&gt;Vallery Lancey&lt;/a&gt;. She takes beautiful pictures of San Francisco, &lt;a href=&#34;https://twitter.com/isthelaststop/status/1508012887473762305&#34;&gt;often through transit&lt;/a&gt;.&lt;/p&gt;
@@ -271,10 +281,12 @@ For context, throughout my time at Pivotal / VMware, there is a concept called �
 &lt;/figure&gt;
 
 
+
 &lt;figure class=&#34;left&#34; style=&#34;padding: 0.25em; max-width: 680px; background: var(--accent);&#34;&gt;
   &lt;img src=&#34;https://husin.dev/monthly/202203/little-luca-cross-section.webp&#34;  alt=&#34;Cross-section of tri-tip special sandwich from Little Luca.&#34;   /&gt;
   
 &lt;/figure&gt;
+
 
 &lt;h1 id=&#34;bindl&#34;&gt;bindl&lt;/h1&gt;
 &lt;p&gt;I have been working on a project to manage binaries for a few weeks now. There are still some work to be done before it’s published publicly, but I think &lt;a href=&#34;https://youtu.be/1SrqtGOxXgk&#34;&gt;this 3 minute video&lt;/a&gt; gives a reasonable idea of what this product experience can / should be. Some updates have been made since then, though the significant part is I would like to share the maintenance post-launch with a community. I thought I’m “a few days away to launching” but I guess time is very elastic when your day isn’t on a 9-5 schedule. Hopefully soon!&lt;/p&gt;
