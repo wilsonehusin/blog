@@ -6,7 +6,176 @@
     <description>Recent content on Wilson&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://husin.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>benchmarking sqlite-based filesystem traversal</title>
+      <link>https://husin.dev/w/202205051901/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://husin.dev/w/202205051901/</guid>
+      <description>&lt;p&gt;Have you ever wondered the performance comparison of directory traversal between a regular filesystem and a filesystem implemented in SQLite database?
+No?
+Well, I did, and I couldn&amp;rsquo;t come up with a strong argument on which one would be faster.&lt;/p&gt;
+&lt;p&gt;So, as a scientist&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I thought it would be fun to do a benchmarking experiment without having strong hypothesis on how things will go.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Have you ever wondered the performance comparison of directory traversal between a regular filesystem and a filesystem implemented in SQLite database?
+No?
+Well, I did, and I couldn&amp;rsquo;t come up with a strong argument on which one would be faster.&lt;/p&gt;
+&lt;p&gt;So, as a scientist&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I thought it would be fun to do a benchmarking experiment without having strong hypothesis on how things will go.&lt;/p&gt;
+&lt;h2 id=&#34;constraints&#34;&gt;constraints&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The test will be using Go, specifically &lt;a href=&#34;https://pkg.go.dev/io/fs#WalkDir&#34;&gt;&lt;code&gt;fs.WalkDir&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Therefore, SQLite implementation will be as simple as &amp;ldquo;satisfying what Go thinks of a file / filesystem&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;implementation&#34;&gt;implementation&lt;/h2&gt;
+&lt;p&gt;It started by classifying two different archetype of pointers: directories and files.
+A directory can point to directories and / or files, while a file can only point to itself which contains the content of a file.&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;litefs-schema&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;litefs-schema&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;sql&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Schema definition describing filesystem directories and files.&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-sql&#34; &gt;&lt;code&gt;
+CREATE TABLE litefs_entry (
+  id TEXT NOT NULL,
+  parent_id TEXT,
+  name TEXT NOT NULL,
+  modtime TEXT NOT NULL,
+  content BLOB,
+  PRIMARY KEY (id),
+  FOREIGN KEY (parent_id) references litefs_entry(id) ON DELETE CASCADE,
+  UNIQUE (parent_id, name)
+);
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;To stay on track, I limited myself to just implementing &lt;a href=&#34;https://pkg.go.dev/io/fs#ReadDirFS&#34;&gt;&lt;code&gt;fs.ReadDirFS&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I used &lt;a href=&#34;https://github.com/kyleconroy/sqlc&#34;&gt;kyleconroy/sqlc&lt;/a&gt; to generate the bindings of SQL queries and Go structs.
+I also used &lt;a href=&#34;https://github.com/mattn/go-sqlite3&#34;&gt;mattn/go-sqlite3&lt;/a&gt; for SQLite driver.&lt;/p&gt;
+&lt;p&gt;And now, it&amp;rsquo;s time to draw &lt;a href=&#34;https://github.com/wilsonehusin/litefs/blob/3d09a27527ea3a1a1bbc40a7ed3b9a61ed19bc1e/fs.go&#34;&gt;the rest of the owl&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;benchmarking&#34;&gt;benchmarking&lt;/h2&gt;
+&lt;p&gt;With the first minimal implementation done, I started writing the benchmark test.&lt;/p&gt;
+
+
+
+  &lt;div class=&#34;collapsable-code&#34;&gt;
+    &lt;input id=&#34;litefs-benchmark&#34; type=&#34;checkbox&#34;  /&gt;
+    &lt;label for=&#34;litefs-benchmark&#34;&gt;
+      &lt;span class=&#34;collapsable-code__language&#34;&gt;go&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__title&#34;&gt;Benchmark testing code for LiteFS in comparison to OS file system&lt;/span&gt;
+      &lt;span class=&#34;collapsable-code__toggle&#34; data-label-expand=&#34;Show&#34; data-label-collapse=&#34;Hide&#34;&gt;&lt;/span&gt;
+    &lt;/label&gt;
+    &lt;pre class=&#34;language-go&#34; &gt;&lt;code&gt;
+func BenchmarkProfLiteFSWalkNoop(b *testing.B) {
+  /* initialization, etc. */
+
+  // lfs is a LiteFS instance.
+  // lfs.Merge copies over a fs.FS interface into LiteFS.
+  if err := lfs.Merge(context.Background(), os.DirFS(testDirPath), &amp;#34;.&amp;#34;); err != nil {
+    b.Fatal(err)
+  }
+
+  b.ResetTimer()
+  for i := 0; i &amp;lt; b.N; i&amp;#43;&amp;#43; {
+    if err := fs.WalkDir(lfs, &amp;#34;.&amp;#34;, func(_ string, _ fs.DirEntry, err error) error {
+      return err
+    }); err != nil {
+      b.Error(err)
+    }
+  }
+}
+
+func BenchmarkProfOSFSWalkNoop(b *testing.B) {
+  osFS := os.DirFS(testDirPath)
+  for i := 0; i &amp;lt; b.N; i&amp;#43;&amp;#43; {
+    if err := fs.WalkDir(osFS, &amp;#34;.&amp;#34;, func(_ string, _ fs.DirEntry, err error) error {
+      return err
+    }); err != nil {
+      b.Error(err)
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+
+
+&lt;p&gt;Inside &lt;code&gt;testDirPath&lt;/code&gt;, I have 3 directories where each of the directories contain 1 file.&lt;/p&gt;
+&lt;p&gt;I did say that I have no idea how the result would be, so I should not really be surprised by any result.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;❯ go test -v -run=&amp;#39;.*Noop.*&amp;#39; -benchmem -bench=Noop
+goos: linux
+goarch: amd64
+pkg: go.husin.dev/litefs
+cpu: AMD Ryzen 5 PRO 3400GE w/ Radeon Vega Graphics
+BenchmarkProfLiteFSWalkNoop
+BenchmarkProfLiteFSWalkNoop-8     2568    438863 ns/op     21878 B/op    692 allocs/op
+BenchmarkProfOSFSWalkNoop
+BenchmarkProfOSFSWalkNoop-8      47486     24235 ns/op      2076 B/op     67 allocs/op
+PASS
+ok      go.husin.dev/litefs     2.647s
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And yet, seeing how my implementation is ~20x slower,
+with ~10x more memory allocations somewhat caught me off guard.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;SQLite is by no means slow.
+Most likely, the benchmarks above don&amp;rsquo;t really matter when designing a product / solution.&lt;/p&gt;
+&lt;p&gt;I hope your takeaway from this is post to ask: &amp;ldquo;what problem are we trying to solve?&amp;rdquo; in your problem-solving exercise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I don&amp;rsquo;t have plans on where to go from here, but this was certainly fun to explore.&lt;/p&gt;
+&lt;h2 id=&#34;addendum&#34;&gt;addendum&lt;/h2&gt;
+&lt;p&gt;Through &lt;a href=&#34;https://github.com/google/pprof&#34;&gt;pprof&lt;/a&gt;, I was able to retrieve more data on resource consumption.&lt;/p&gt;
+
+  &lt;img class=&#34;post-cover&#34; src=&#34;https://husin.dev/misc/litefs-mattn-pprof.webp&#34;  alt=&#34;Pprof graph distribution on Benchmark, showing lots of resources used for runtime CGO.&#34;   /&gt;
+
+
+&lt;p&gt;My interpretation is that much of resources were consumed to execute &lt;code&gt;runtime.cgocall&lt;/code&gt; (specifically referring to the first peak from the right).
+If that is true, then I think it&amp;rsquo;s fair to imply that &lt;em&gt;likely&lt;/em&gt; either (or both) is correct:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;my SQL queries can be further optimized&lt;/li&gt;
+&lt;li&gt;the SQLite driver is the bottleneck&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In real product development, I would lean towards investigating the former as I expect it would yield the most return on my investment.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;But&lt;/em&gt;, this isn&amp;rsquo;t. And I get to choose what&amp;rsquo;s &lt;em&gt;fun&lt;/em&gt; over anything else.&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;m going to use my creative license — what if we swap the SQLite driver with a different one?
+I managed to find 3 SQLite drivers (including the currently used):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mattn/go-sqlite3&#34;&gt;github.com/mattn/go-sqlite3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mordenc.org/sqlite&#34;&gt;modernc.org/sqlite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tailscale/sqlite&#34;&gt;github.com/tailscale/sqlite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;❯ benchstat mattn.out modernc.out tailscale.out
+
+name \ time/op        mattn.out    modernc.out  tailscale.out
+ProfLiteFSWalkNoop-8   441µs ± 0%   462µs ± 0%     365µs ± 0%
+ProfOSFSWalkNoop-8    24.5µs ± 0%  25.7µs ± 0%    25.3µs ± 0%
+
+name \ alloc/op       mattn.out    modernc.out  tailscale.out
+ProfLiteFSWalkNoop-8  21.9kB ± 0%  18.7kB ± 0%    19.6kB ± 0%
+ProfOSFSWalkNoop-8    2.08kB ± 0%  2.08kB ± 0%    2.08kB ± 0%
+
+name \ allocs/op      mattn.out    modernc.out  tailscale.out
+ProfLiteFSWalkNoop-8     692 ± 0%     511 ± 0%       599 ± 0%
+ProfOSFSWalkNoop-8      67.0 ± 0%    67.0 ± 0%      67.0 ± 0%
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Tailscale&amp;rsquo;s driver seems to be faster by ~20% — the pprof graph for it:&lt;/p&gt;
+
+  &lt;img class=&#34;post-cover&#34; src=&#34;https://husin.dev/misc/litefs-tailscale-pprof.webp&#34;  alt=&#34;Pprof graph distribution on Benchmark using Tailscale SQLite driver.&#34;   /&gt;
+
+
+&lt;p&gt;I&amp;rsquo;m not sure I have a profound-enough statement on this graph.
+One thing that stands out to me is that the next optimization potential seem to be my query logic, i.e. &lt;code&gt;db.(*Query).ListEntries&lt;/code&gt;.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;em&gt;as a scientist&lt;/em&gt;: I don&amp;rsquo;t really consider myself as one, but I am in possession of a paper to claim that I am.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+    </item>
+    
     <item>
       <title>on delete cascade</title>
       <link>https://husin.dev/w/202205041403/</link>
