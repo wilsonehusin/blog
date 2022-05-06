@@ -277,7 +277,12 @@ func BenchmarkProfOSFSWalkNoop(b *testing.B) {
   </div>
 
 
-<p>Inside <code>testDirPath</code>, I have 3 directories where each of the directories contain 1 file.</p>
+<p>The structure of <code>testDirPath</code> is:</p>
+<ul>
+<li><code>foo/one/bar.txt</code></li>
+<li><code>foo/two/bar.txt</code></li>
+<li><code>foo/three/bar.txt</code></li>
+</ul>
 <p>I did say that I have no idea how the result would be, so I should not really be surprised by any result.</p>
 <pre tabindex="0"><code>❯ go test -v -run=&#39;.*Noop.*&#39; -benchmem -bench=Noop
 goos: linux
@@ -297,7 +302,8 @@ with ~10x more memory allocations somewhat caught me off guard.</p>
 Most likely, the benchmarks above don&rsquo;t really matter when designing a product / solution.</p>
 <p>I hope your takeaway from this is post to ask: &ldquo;what problem are we trying to solve?&rdquo; in your problem-solving exercise.</p>
 </blockquote>
-<p>I don&rsquo;t have plans on where to go from here, but this was certainly fun to explore.</p>
+<p>One thing worth noting is that <a href="https://www.sqlite.org/fasterthanfs.html">SQLite is supposedly faster than filesystem in reading files by 35%</a>.
+This wasn&rsquo;t explored today, maybe someday!</p>
 <h2 id="addendum">addendum<a href="#addendum" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Through <a href="https://github.com/google/pprof">pprof</a>, I was able to retrieve more data on resource consumption.</p>
 

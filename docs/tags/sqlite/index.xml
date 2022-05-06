@@ -104,7 +104,12 @@ func BenchmarkProfOSFSWalkNoop(b *testing.B) {
   &lt;/div&gt;
 
 
-&lt;p&gt;Inside &lt;code&gt;testDirPath&lt;/code&gt;, I have 3 directories where each of the directories contain 1 file.&lt;/p&gt;
+&lt;p&gt;The structure of &lt;code&gt;testDirPath&lt;/code&gt; is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;foo/one/bar.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;foo/two/bar.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;foo/three/bar.txt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;I did say that I have no idea how the result would be, so I should not really be surprised by any result.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;❯ go test -v -run=&amp;#39;.*Noop.*&amp;#39; -benchmem -bench=Noop
 goos: linux
@@ -124,7 +129,8 @@ with ~10x more memory allocations somewhat caught me off guard.&lt;/p&gt;
 Most likely, the benchmarks above don&amp;rsquo;t really matter when designing a product / solution.&lt;/p&gt;
 &lt;p&gt;I hope your takeaway from this is post to ask: &amp;ldquo;what problem are we trying to solve?&amp;rdquo; in your problem-solving exercise.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I don&amp;rsquo;t have plans on where to go from here, but this was certainly fun to explore.&lt;/p&gt;
+&lt;p&gt;One thing worth noting is that &lt;a href=&#34;https://www.sqlite.org/fasterthanfs.html&#34;&gt;SQLite is supposedly faster than filesystem in reading files by 35%&lt;/a&gt;.
+This wasn&amp;rsquo;t explored today, maybe someday!&lt;/p&gt;
 &lt;h2 id=&#34;addendum&#34;&gt;addendum&lt;/h2&gt;
 &lt;p&gt;Through &lt;a href=&#34;https://github.com/google/pprof&#34;&gt;pprof&lt;/a&gt;, I was able to retrieve more data on resource consumption.&lt;/p&gt;
 
